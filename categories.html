@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce Website | Isaacski Website</title>
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="./CSS/categories.css" />
+    <!-- Fav-Icon -->
+    <link
+      rel="shortcut icon"
+      href="./Images/Logo/fav-icon.jpg"
+      type="image/x-icon"
+    />
+    <!-- Box-icon CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="./CSS/Swiper.JS/swiper-bundle.css" />
+    <!-- Animation CSS Link -->
+    <link rel="stylesheet" href="./CSS/animation.css" />
+    <!-- Responsive CSS Link -->
+    <link rel="stylesheet" href="./CSS/responsive.css" />
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="./CSS/Bootstrap/bootstrap.min.css" />
+    <!-- Bootstrap Plugins CDN -->
+    <link rel="stylesheet" href="./CSS/Bootstrap/plugins.css" />
+    <!-- Show PopUp CSS -->
+    <link rel="stylesheet" href="./CSS/Show-PopUp.css" />
+    <!-- Loading Page CSS -->
+    <link rel="stylesheet" href="./CSS/loading.css" />
+    <!-- Box Icon CSS CDN -->
+    <link rel="stylesheet" href="./CSS/Box-Icon/boxicons.min.css" />
+    <!-- Box Icon CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Loading Page Start -->
+    <div id="loading-container">
+      <div class="loading-box">
+        <img src="Images/loader.gif" alt="" />
+      </div>
+    </div>
+    <!-- Loading Page End -->
+    <!-- Automatic Show PopUp Start -->
+    <div class="container-fluid popup-container">
+      <div class="popup-box">
+        <div class="popup-img">
+          <img src="Images/Show Popup/newsletter-img.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>join our mailing list</h3>
+          <p>
+            Sign Up for our exclusive email list and be the first to know about
+            new products and special offers
+          </p>
+          <div class="mail">
+            <form
+              action="https://formcarry.com/s/lRUmVR4doNI"
+              method="POST"
+              enctype="multipart/form-data"
+            >
+              <input
+                type="email"
+                class="input"
+                name="email"
+                placeholder="Email Address"
+                required
+                title="Please enter your email"
+              />
+              <button type="submit" class="btn0">Subscribe</button>
+            </form>
+          </div>
+          <div class="social-handles">
+            <a href="#" target="_blank" title="Facebook"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="#" target="_blank" title="Twitter"
+              ><i class="bi bi-twitter"></i
+            ></a>
+            <a href="#" target="_blank" title="Pinterest"
+              ><i class="bi bi-pinterest"></i
+            ></a>
+            <a href="#" target="_blank" title="Instagram"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="#" target="_blank" title="Linkedin"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+            <a href="#" target="_blank" title="Telegram"
+              ><i class="bi bi-telegram"></i
+            ></a>
+          </div>
+        </div>
+        <div class="close">
+          <i class="bi bi-x-lg" title="Close"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Automatic Show PopUp End -->
+
+    <!-- Header Section Start -->
+    <!-- Top Nav Start -->
+    <nav class="nav-top">
+      <div class="first-row">
+        <div class="curency">
+          <select>
+            <option>USD</option>
+            <option>GBP</option>
+            <option>CAD</option>
+            <option>INR</option>
+            <option>AUD</option>
+            <option>EUR</option>
+            <option>JPY</option>
+          </select>
+        </div>
+
+        <div class="language">
+          <select>
+            <option>ENGLISH</option>
+            <option>FRENCH</option>
+            <option>GERMAN</option>
+          </select>
+        </div>
+
+        <div class="call">
+          <p><i class="bx bxs-phone"></i> (+233) 549 175 604</p>
+        </div>
+      </div>
+      <div class="second-row">
+        <h1>WORLDWIDE EXPRESS SHIPPING</h1>
+      </div>
+      <div class="third-row">
+        <a href="login.html" class="login">LOGIN</a>
+        <a href="signup.html" class="login">CREATE ACCOUNT</a>
+        <a href="#" class="login">WISHLIST</a>
+        <!-- User Icon -->
+        <a href="login.html" class="login-icon"><i class="bi bi-person-fill"></i></a>
+      </div>
+    </nav>
+
+    <!-- Navigation Section Start -->
+    <header>
+      <a href="index.html">
+        <img src="Images/Logo/logo.png" alt="Logo" width="110px" />
+      </a>
+      <nav class="nav__menu">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li id="drop__down-menu">
+            <a href="#">SHOP <i class="bi bi-arrow-down-short"></i></a>
+            <ul>
+              <div class="drop-items">
+                <li><a href="women-page.html">WOMEN PRODUCT</a></li>
+                <li><a href="men-page.html">MEN PRODUCT</a></li>
+                <li><a href="categories.html">CATEGORIES</a></li>
+                <li><a href="furnitures.html">FURNITURES</a></li>
+                <li><a href="auto-parts.html">AUTO PARTS</a></li>
+              </div>
+              <div class="dropDown__image">
+                <img src="Images/megamenu-bg1.jpg" alt="" />
+              </div>
+            </ul>
+          </li>
+          <li>
+            <a href="#">PRODUCTS <i class="bi bi-arrow-down-short"></i></a>
+            <ul>
+              <div class="drop-items">
+                <li><a href="accessories.html">ACCESSORIES</a></li>
+                <li><a href="cosmetics.html">COSMETICS</a></li>
+                <li><a href="fashion.html">FASHION</a></li>
+                <li><a href="jewelry.html">JEWELRY</a></li>
+                <li><a href="shoe.html">SHOES</a></li>
+                <li><a href="bag.html">BAGS</a></li>
+              </div>
+              <div class="dropDown__image">
+                <img src="Images/megamenu-bg1.jpg" alt="" />
+              </div>
+            </ul>
+          </li>
+          <li>
+            <a href="#">PAGES <i class="bi bi-arrow-down-short"></i></a>
+            <ul>
+              <div class="drop-items">
+                <li><a href="cart-page.html">CART PAGE</a></li>
+                <li><a href="checkout.html">CHECKOUT</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="article-1.html">ARTICLE</a></li>
+                <li><a href="faq.html">FAQS</a></li>
+                <li><a href="coming-soon.html">COMING SOON</a></li>
+              </div>
+            </ul>
+          </li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <!-- Nav Icons -->
+        <div class="nav-icons-1">
+          <a class="sea" href="#" target="_self" title="Search">
+            <i class="bi bi-search"></i>
+          </a>
+          <div class="cart">
+            <a href="cart-page.html" target="_self" title="Your Cart Items">
+              <i class="bi bi-cart2"></i>
+            </a>
+            <span>3</span>
+          </div>
+        </div>
+      </nav>
+      <!-- Nav Icons -->
+      <div class="nav-icons">
+        <a class="sea" href="#" target="_self" title="Search">
+          <i class="bi bi-search"></i>
+        </a>
+        <div class="cart">
+          <a href="cart-page.html" target="_self" title="Your Cart Items">
+            <i class="bi bi-cart2"></i>
+          </a>
+          <span>3</span>
+        </div>
+      </div>
+
+      <!-- Hamburger Icon -->
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </header>
+    <!-- Navigation Section End -->
+
+    <!-- Hero Banner Section Start -->
+    <div class="hero_banner">
+      <div
+        id="carouselExampleInterval"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div
+            class="carousel-item active position-relative"
+            data-bs-interval="10000"
+          >
+            <img
+              src="Images/Categories/hero-banner-1.jpg"
+              class="d-block w-100"
+            />
+            <div class="category-info-1">
+              <h1>SUMMER HOT COLLECTION</h1>
+              <p>Sale up to 30% off</p>
+              <a href="#">SHOP NOW</a>
+            </div>
+          </div>
+          <div class="carousel-item position-relative" data-bs-interval="2000">
+            <img
+              src="Images/Categories/hero-banner-2.jpg"
+              class="d-block w-100"
+            />
+            <div class="category-info-2">
+              <h1>MID SEASON SALE</h1>
+              <p>Up to 70% off on selected items</p>
+              <a href="#">SHOP NOW</a>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev ctrl-btn"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next ctrl-btn"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- Hero Banner Section End -->
+
+    <!-- Categories Section Start -->
+    <section class="categories-container container-fluid">
+      <div class="row">
+        <div class="col-12 cat-heading text-center">
+          <h1>SHOP BY CATEGORY</h1>
+          <p>Shop the Nicest Deals on Best Prices in all category</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 categories-box py-3">
+          <div class="box position-relative">
+            <a href="#" title="Visit Our Halloween Items"
+              ><img src="Images/Categories/Categ/pic-1.jpg" alt=""
+            /></a>
+            <p>Shop <br />Halloween Look</p>
+            <a href="#" class="lay-out" title="Shop Halloween Look"></a>
+          </div>
+        </div>
+        <div class="col-md-6 categories-box py-3">
+          <div class="box_2">
+            <div class="cont position-relative">
+              <a href="#" title="Explore Our Heel Boot"
+                ><img src="Images/Categories/Categ/pic-2.jpg" alt=""
+              /></a>
+              <p>Shop <br />Heel Boot</p>
+              <a href="#" class="lay-out" title="Shop Heel Boot and More"></a>
+            </div>
+
+            <div class="cont position-relative">
+              <a href="#" title="Explore Our Caps and Hats">
+                <img src="Images/Categories/Categ/pic-3.jpg" alt="" />
+              </a>
+              <p style="position: absolute; bottom: 20px; left: 20px">
+                Shop <br />Cool Caps
+              </p>
+              <a href="#" class="lay-out" title="Shop Cool Caps"></a>
+            </div>
+          </div>
+          <div class="box_3 position-relative">
+            <a href="#" title="Shop For Sun Glasses And More"
+              ><img
+                src="Images/Categories/Categ/home11-grid-sm-banner4.jpg"
+                alt=""
+            /></a>
+            <p>
+              Hot Summer Collection <br />
+              Sun Glasses and more
+            </p>
+            <a href="#" class="lay-out" title="Shop Sun Glasses And More"></a>
+          </div>
+        </div>
+        <!-- Sec-2 Start-->
+        <div class="row py-5">
+          <div class="col-md-5 categories-box-2 py-3">
+            <div class="box-1 position-relative">
+              <a href="#" title="Explore Our Jewelry Products"
+                ><img
+                  src="Images/Categories/Categ/home11-grid-sm-banner5.jpg"
+                  alt=""
+              /></a>
+              <p>All in the Shiniest <br />Shop Jewelry</p>
+            </div>
+
+            <div class="box-1 position-relative">
+              <a href="#" title="Explore Our Cosmetics Products"
+                ><img
+                  src="Images/Categories/Categ/home11-grid-sm-banner6.jpg"
+                  alt=""
+              /></a>
+              <h3 id="box-2_name">
+                Every little things <br />Shop for Cosmetics
+              </h3>
+            </div>
+          </div>
+          <div class="col-md-7 categories-box-2 py-3">
+            <div class="box-2 position-relative">
+              <a href="#" title="Explore Men's Products"
+                ><img src="Images/Categories/Categ/pic-5.jpg" alt=""
+              /></a>
+              <p>Elevate Every Look <br />Shop Men's Clothing</p>
+            </div>
+          </div>
+        </div>
+        <!-- Sec-2 End-->
+
+        <!-- Section Three Start -->
+        <div class="row py-5">
+          <div class="col-md-6 categories-3 position-relative py-3">
+            <div class="box-1">
+              <a href="#" title="Shop for what interest you"
+                ><img src="Images/Categories/Categ/pic-7.jpg" alt=""
+              /></a>
+              <p>Shape Your Look <br />Shop Now</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 categories-3a position-relative py-3">
+            <div class="flex-box position-relative">
+              <a href="#" title="Shop For Kid's Products"
+                ><img src="Images/Categories/Categ/pic-8.jpg" alt=""
+              /></a>
+              <p>Shop Kids</p>
+            </div>
+            <div class="flex-box position-relative">
+              <a href="#" title="Shop For Kid's Products"
+                ><img src="Images/Categories/Categ/pic-9.jpg" alt=""
+              /></a>
+              <h3>Shop <br />Kid's Accessories</h3>
+            </div>
+          </div>
+        </div>
+        <!-- Section Three End -->
+      </div>
+    </section>
+    <!-- Categories Section End -->
+
+    <!-- New Arrival Section Start -->
+    <section class="new-arrival container-fluid">
+      <div class="row">
+          <div class="col-12">
+              <h1>NEW ARRIVALS WE LOVE</h1>
+          </div>
+      </div>
+      <div class="row row-gap">
+        <div class="col-md-2 img-cont">
+            <div class="arrival-img">
+
+                <div class="image__container">
+                    <div class="img-box-1">
+                        <div class="img-box-cont">
+                            <img src="Images/New-Arrivsal-Products/Sale/product-image11.jpg"
+                                class="img-fluid" id="img-1">
+                        </div>
+                    </div>
+                    <div class="img-box-2">
+                        <div class="img-box-cont">
+                            <img src="Images/New-Arrivsal-Products/Sale/product-image11-1.jpg"
+                                class="img-fluid" id="img-1">
+                            <a href="#" class="add-to-cart">SELECT OPTION</a>
+
+                            <div class="arrival-icons">
+                                <li>
+                                    <a href="#" target="_self" title="Preview">
+                                        <i class="bi bi-eye"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self" title="Likes">
+                                        <i class="bi bi-heart"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self" title="Share"><i
+                                            class="bi bi-share"></i></a>
+                                </li>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="dress-name">Azur Bracelete in Blue Azurite</div>
+                    <div class="arrival-price">
+                        <del>$24</del>
+                        <span>$20</span>
+                    </div>
+                    
+                    
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="col-md-2 img-cont">
+          <div class="arrival-img">
+
+              <div class="image__container">
+                  <div class="img-box-1">
+                      <div class="img-box-cont">
+                          <img src="Images/New-Arrivsal-Products/Women Procuts/product-image22.jpg"
+                              class="img-fluid" id="img-1">
+                      </div>
+                  </div>
+                  <div class="img-box-2">
+                      <div class="img-box-cont">
+                          <img src="Images/New-Arrivsal-Products/Women Procuts/product-image22-1.jpg"
+                              class="img-fluid" id="img-1">
+                          <a href="#" class="add-to-cart">SELECT OPTION</a>
+
+                          <div class="arrival-icons">
+                              <li>
+                                  <a href="#" target="_self" title="Preview">
+                                      <i class="bi bi-eye"></i>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#" target="_self" title="Likes">
+                                      <i class="bi bi-heart"></i>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#" target="_self" title="Share"><i
+                                          class="bi bi-share"></i></a>
+                              </li>
+                          </div>
+                      </div>
+
+                  </div>
+
+                  <div class="dress-name">Lexie Shirt</div>
+                  <div class="arrival-price">
+                      
+                      <span>$83.54</span>
+                  </div>
+
+                  <div id="colors">
+                    <span class="color"></span>
+                    <span class="color"></span>
+                    <span class="color"></span>
+                    <span class="color"></span>
+                  </div>
+                  
+                  
+              </div>
+
+
+          </div>
+      </div>
+
+      <div class="col-md-2 img-cont">
+        <div class="arrival-img">
+
+            <div class="image__container">
+                <div class="img-box-1">
+                    <div class="img-box-cont">
+                        <img src="Images/New-Arrivsal-Products/Women Procuts/product-image4.jpg"
+                            class="img-fluid" id="img-1">
+                    </div>
+                    <span class="sale">SALE</span>
+                </div>
+                <div class="img-box-2">
+                    <div class="img-box-cont">
+                        <img src="Images/New-Arrivsal-Products/Women Procuts/product-image4-1.jpg"
+                            class="img-fluid" id="img-1">
+                        <a href="#" class="add-to-cart">SELECT OPTION</a>
+
+                        <div class="arrival-icons">
+                            <li>
+                                <a href="#" target="_self" title="Preview">
+                                    <i class="bi bi-eye"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_self" title="Likes">
+                                    <i class="bi bi-heart"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_self" title="Share"><i
+                                        class="bi bi-share"></i></a>
+                            </li>
+                        </div>
+                        <span class="sale">SALE</span>
+                    </div>
+
+                </div>
+
+                <div class="dress-name">Cape Dress</div>
+                <div class="arrival-price">
+                    
+                    <span>$49.99</span>
+                </div>
+
+                <div id="colors">
+                  <span class="color" style="background: indigo;"></span>
+                  <span class="color" style="background: indianred;"></span>
+                  <span class="color" style="background: #efc421;"></span>
+                  <span class="color" style="background: #0f0;"></span>
+                </div>
+                
+                
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="col-md-2 img-cont">
+      <div class="arrival-img">
+
+          <div class="image__container">
+              <div class="img-box-1">
+                  <div class="img-box-cont">
+                      <img src="Images/New-Arrivsal-Products/Men/product-image6.jpg"
+                          class="img-fluid" id="img-1">
+                  </div>
+              </div>
+              <div class="img-box-2">
+                  <div class="img-box-cont">
+                      <img src="Images/New-Arrivsal-Products/Men/product-image6-1.jpg"
+                          class="img-fluid" id="img-1">
+                      <a href="#" class="add-to-cart">SELECT OPTION</a>
+
+                      <div class="arrival-icons">
+                          <li>
+                              <a href="#" target="_self" title="Preview">
+                                  <i class="bi bi-eye"></i>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#" target="_self" title="Likes">
+                                  <i class="bi bi-heart"></i>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#" target="_self" title="Share"><i
+                                      class="bi bi-share"></i></a>
+                          </li>
+                      </div>
+                  </div>
+
+              </div>
+
+              <div class="dress-name">Buttercup Dress</div>
+              <div class="arrival-price">
+                  <del>$120.00</del>
+                  <span>$110</span>
+              </div>
+              
+              
+          </div>
+
+
+      </div>
+  </div>
+
+  <div class="col-md-2 img-cont">
+    <div class="arrival-img">
+
+        <div class="image__container">
+            <div class="img-box-1">
+                <div class="img-box-cont">
+                    <img src="Images/New-Arrivsal-Products/Men/product-image8.jpg"
+                        class="img-fluid" id="img-1">
+                </div>
+                
+            </div>
+            <div class="img-box-2">
+                <div class="img-box-cont">
+                    <img src="Images/New-Arrivsal-Products/Men/product-image8-1.jpg"
+                        class="img-fluid" id="img-1">
+                    <a href="#" class="add-to-cart">SELECT OPTION</a>
+
+                    <div class="arrival-icons">
+                        <li>
+                            <a href="#" target="_self" title="Preview">
+                                <i class="bi bi-eye"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_self" title="Likes">
+                                <i class="bi bi-heart"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_self" title="Share"><i
+                                    class="bi bi-share"></i></a>
+                        </li>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <div class="dress-name">Lema Shirt</div>
+            <div class="arrival-price">
+                <del>$55.74</del>
+                <span>$52.74</span>
+            </div>
+                  
+        </div>
+
+
+    </div>
+</div>
+
+<div class="col-md-2 img-cont">
+  <div class="arrival-img">
+
+      <div class="image__container">
+          <div class="img-box-1">
+              <div class="img-box-cont">
+                  <img src="Images/Women-Page/Cloths/dress4a.jpg"
+                      class="img-fluid" id="img-1">
+              </div>
+              <span class="sale" style="background: rgb(0, 140, 255);">NEW</span>
+          </div>
+          <div class="img-box-2">
+              <div class="img-box-cont">
+                  <img src="Images/Women-Page/Cloths/dress4b.jpg"
+                      class="img-fluid" id="img-1">
+                  <a href="#" class="add-to-cart">SELECT OPTION</a>
+
+                  <div class="arrival-icons">
+                      <li>
+                          <a href="#" target="_self" title="Preview">
+                              <i class="bi bi-eye"></i>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#" target="_self" title="Likes">
+                              <i class="bi bi-heart"></i>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#" target="_self" title="Share"><i
+                                  class="bi bi-share"></i></a>
+                      </li>
+                  </div>
+                  <span class="sale" style="background: rgb(0, 140, 255)    ;">NEW</span>
+              </div>
+
+          </div>
+
+          <div class="dress-name">Azur Bracelete in Blue Azurite</div>
+          <div class="arrival-price">
+              <del>$84.72</del>
+              <span>$65.72</span>
+          </div>
+
+          <div id="colors">
+            <span class="color"></span>
+            <span class="color"></span>
+            <span class="color"></span>
+            <span class="color"></span>
+          </div>
+          
+          
+      </div>
+
+
+  </div>
+</div>
+
+    </div>
+      </div>
+  </section>
+  <!-- New Arrival Section End -->
+
+  <!-- footer Section Start -->
+  <section class="container-fluid footer-box">
+      <div class="row footer-row-box footer-underline">
+          <div class="footer-sec">
+              <h1 class="footer-title fw-bolder">Quick Shop</h1>
+              <a href="#">Women</a>
+              <a href="#">Men</a>
+              <a href="#">Kids</a>
+              <a href="#">Sports Wear</a>
+              <a href="#">Sale</a>
+          </div>
+
+          <div class="footer-sec">
+              <h1 class="footer-title fw-bolder">Information</h1>
+              <a href="#">About Us</a>
+              <a href="#">Careers</a>
+              <a href="#">Privacy & Policy</a>
+              <a href="#">Terms & Conditions</a>
+              <a href="#">My Account</a>
+          </div>
+
+          <div class="footer-sec">
+              <h1 class="footer-title fw-bolder">Customer Service</h1>
+              <a href="#">Request Personal Data</a>
+              <a href="#">FAQs</a>
+              <a href="#">Contact Us</a>
+              <a href="#">Orders & Returns</a>
+              <a href="#">Support Center</a>
+          </div>
+
+          <div class="footer-sec">
+              <h1 class="footer-title fw-bolder">Contact Us</h1>
+              <div class="location">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  <p>Central Region, Agona Swedru, Liberty Street C-P 234,211</p>
+              </div>
+              <div class="location">
+                  <i class="bi bi-telephone-fill"></i>
+                  <p>(+233) 549 175 604</p>
+              </div>
+              <div class="location">
+                  <i class="bi bi-envelope-at"></i>
+                  <p>isaacskikrams@gmail.com</p>
+              </div>
+          </div>
+
+      </div>
+      <div class="bottom-footer py-3">
+          <div class="bottom-footer-row">
+              <h1>This website was design by &hearts; Isaacski Krams</h1>
+              <img src="Images/safepayment.png" alt="">
+          </div>
+      </div>
+  </section>
+  <!-- footer Section End -->
+
+    <!-- App JS -->
+    <script src="./JS/app.js"></script>
+    <!-- Swiper JS -->
+    <script src="./JS/Swiper.js/swiper-bundle.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="./JS/Bootstrap/plugins.js"></script>
+    <script src="./JS/Bootstrap/bootstrap.bundle.js"></script>
+    <!-- JavaScript JQuery CDN -->
+    <script src="./JS/jquery-3.7.1.min.js"></script>
+    <!-- Box Icon Js CDN -->
+    <script src="./JS/Box-Icons/boxicons.js"></script>
+  </body>
+</html>

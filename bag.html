@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce Website | Isaacski Website</title>
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="./CSS/bag.css" />
+    <!-- Fav-Icon -->
+    <link
+      rel="shortcut icon"
+      href="./Images/Logo/fav-icon.jpg"
+      type="image/x-icon"
+    />
+    <!-- Box-icon CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="./CSS/Swiper.JS/swiper-bundle.css" />
+    <!-- Animation CSS Link -->
+    <link rel="stylesheet" href="./CSS/animation.css" />
+    <!-- Responsive CSS Link -->
+    <link rel="stylesheet" href="./CSS/responsive.css" />
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="./CSS/Bootstrap/bootstrap.min.css" />
+    <!-- Bootstrap Plugins CDN -->
+    <link rel="stylesheet" href="./CSS/Bootstrap/plugins.css" />
+    <!-- Show PopUp CSS -->
+    <link rel="stylesheet" href="./CSS/Show-PopUp.css" />
+    <!-- Loading Page CSS -->
+    <link rel="stylesheet" href="./CSS/loading.css" />
+    <!-- Box Icon CSS CDN -->
+    <link rel="stylesheet" href="./CSS/Box-Icon/boxicons.min.css" />
+    <!-- Box Icon CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Loading Page Start -->
+    <!-- <div id="loading-container">
+    <div class="loading-box">
+      <img src="Images/loader.gif" alt="" />
+    </div>
+  </div> -->
+    <!-- Loading Page End -->
+    <!-- Automatic Show PopUp Start -->
+    <div class="container-fluid popup-container">
+      <div class="popup-box">
+        <div class="popup-img">
+          <img src="Images/Show Popup/newsletter-img.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>join our mailing list</h3>
+          <p>
+            Sign Up for our exclusive email list and be the first to know about
+            new products and special offers
+          </p>
+          <div class="mail">
+            <form
+              action="https://formcarry.com/s/lRUmVR4doNI"
+              method="POST"
+              enctype="multipart/form-data"
+            >
+              <input
+                type="email"
+                class="input"
+                name="email"
+                placeholder="Email Address"
+                required
+                title="Please enter your email"
+              />
+              <button type="submit" class="btn0">Subscribe</button>
+            </form>
+          </div>
+          <div class="social-handles">
+            <a href="#" target="_blank" title="Facebook"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a href="#" target="_blank" title="Twitter"
+              ><i class="bi bi-twitter"></i
+            ></a>
+            <a href="#" target="_blank" title="Pinterest"
+              ><i class="bi bi-pinterest"></i
+            ></a>
+            <a href="#" target="_blank" title="Instagram"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="#" target="_blank" title="Linkedin"
+              ><i class="bi bi-linkedin"></i
+            ></a>
+            <a href="#" target="_blank" title="Telegram"
+              ><i class="bi bi-telegram"></i
+            ></a>
+          </div>
+        </div>
+        <div class="close">
+          <i class="bi bi-x-lg" title="Close"></i>
+        </div>
+      </div>
+    </div>
+    <!-- Automatic Show PopUp End -->
+
+    <!-- Header Section Start -->
+    <!-- Top Nav Start -->
+    <nav class="nav-top">
+      <div class="first-row">
+        <div class="curency">
+          <select>
+            <option>USD</option>
+            <option>GBP</option>
+            <option>CAD</option>
+            <option>INR</option>
+            <option>AUD</option>
+            <option>EUR</option>
+            <option>JPY</option>
+          </select>
+        </div>
+
+        <div class="language">
+          <select>
+            <option>ENGLISH</option>
+            <option>FRENCH</option>
+            <option>GERMAN</option>
+          </select>
+        </div>
+
+        <div class="call">
+          <p><i class="bx bxs-phone"></i> (+233) 549 175 604</p>
+        </div>
+      </div>
+      <div class="second-row">
+        <h1>WORLDWIDE EXPRESS SHIPPING</h1>
+      </div>
+      <div class="third-row">
+        <a href="login.html" class="login">LOGIN</a>
+        <a href="signup.html" class="login">CREATE ACCOUNT</a>
+        <a href="#" class="login">WISHLIST</a>
+        <!-- User Icon -->
+        <a href="login.html" class="login-icon"><i class="bi bi-person"></i></a>
+      </div>
+    </nav>
+
+    <!-- Header Section Start -->
+    <header>
+      <a href="index.html">
+        <img src="Images/Logo/logo.png" alt="Logo" width="110px" />
+      </a>
+      <nav class="nav__menu">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li id="drop__down-menu">
+            <a href="#">SHOP <i class="bi bi-arrow-down-short"></i></a>
+            <ul>
+              <div class="drop-items">
+                <li><a href="women-page.html">WOMEN PRODUCT</a></li>
+                <li><a href="men-page.html">MEN PRODUCT</a></li>
+                <li><a href="categories.html">CATEGORIES</a></li>
+                <li><a href="furnitures.html">FURNITURES</a></li>
+                <li><a href="auto-parts.html">AUTO PARTS</a></li>
+              </div>
+              <div class="dropDown__image">
+                <img src="Images/megamenu-bg1.jpg" alt="" />
+              </div>
+            </ul>
+          </li>
+          <li>
+            <a href="#">PRODUCTS <i class="bi bi-arrow-down-short"></i></a>
+            <ul>
+              <div class="drop-items">
+                <li><a href="accessories.html">ACCESSORIES</a></li>
+                <li><a href="cosmetics.html">COSMETICS</a></li>
+                <li><a href="fashion.html">FASHION</a></li>
+                <li><a href="jewelry.html">JEWELRY</a></li>
+                <li><a href="shoe.html">SHOES</a></li>
+                <li><a href="bag.html">BAGS</a></li>
+              </div>
+              <div class="dropDown__image">
+                <img src="Images/megamenu-bg1.jpg" alt="" />
+              </div>
+            </ul>
+          </li>
+          <li>
+            <a href="#">PAGES <i class="bi bi-arrow-down-short"></i></a>
+            <ul>
+              <div class="drop-items">
+                <li><a href="cart-page.html">CART PAGE</a></li>
+                <li><a href="checkout.html">CHECKOUT</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="article-1.html">ARTICLE</a></li>
+                <li><a href="faq.html">FAQS</a></li>
+                <li><a href="coming-soon.html">COMING SOON</a></li>
+              </div>
+            </ul>
+          </li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <!-- Nav Icons -->
+        <div class="nav-icons-1">
+          <a class="sea" href="#" target="_self" title="Search">
+            <i class="bi bi-search"></i>
+          </a>
+          <div class="cart">
+            <a href="cart-page.html" target="_self" title="Your Cart Items">
+              <i class="bi bi-cart2"></i>
+            </a>
+            <span>3</span>
+          </div>
+        </div>
+      </nav>
+      <!-- Nav Icons -->
+      <div class="nav-icons">
+        <a class="sea" href="#" target="_self" title="Search">
+          <i class="bi bi-search"></i>
+        </a>
+        <div class="cart">
+          <a href="cart-page.html" target="_self" title="Your Cart Items">
+            <i class="bi bi-cart2"></i>
+          </a>
+          <span>3</span>
+        </div>
+      </div>
+
+      <!-- Hamburger Icon -->
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero-container container-fluid">
+      <div class="img">
+        <img src="Images/Bags/hero-banner.jpg" alt="" />
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Most Popular Section Start -->
+    <section class="container popular-product">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 product__header text-center">
+          <h1 class="text-center">
+            DISCOVER THE LATEST BAG COLLECTIONS AND A CONSTANTLY GROWING
+            ASSORTMENT AT ISAACSKI Enterprise
+          </h1>
+          <center>
+            You know best what makes your perfect bag, so ISAACSKI enterprise
+            offers a wide selection for every taste! Choose your favourite
+            leather bag with matching purse from over 120 brands!
+          </center>
+          <a href="#">DISCOVER NOW</a>
+        </div>
+      </div>
+      <div class="row popular-cont">
+        <div class="col-md-4 popular-box py-4">
+          <div class="img">
+            <img src="Images/Bags/pro-1.jpg" alt="" />
+            <div class="layer"></div>
+          </div>
+          <div class="content">
+            <h1>NEW IN !</h1>
+            <p>Wallet and small leather goods</p>
+            <a href="#" id="shop">DISCOVER</a>
+          </div>
+        </div>
+
+        <div class="col-md-4 popular-box py-4">
+          <div class="img">
+            <img src="Images/Bags/pro-2.jpg" alt="" />
+            <div class="layer"></div>
+          </div>
+          <div class="content">
+            <h1>MY VALENTINE</h1>
+            <p>Gift ideas for him to personalize</p>
+            <a href="#" id="shop">SHOP THE EDIT</a>
+          </div>
+        </div>
+
+        <div class="col-md-4 popular-box py-4">
+          <div class="img">
+            <img src="Images/Bags/pro-3.jpg" alt="" />
+            <div class="layer"></div>
+          </div>
+          <div class="content">
+            <h1>GIFT IDEAS</h1>
+            <p>An exceptional gift</p>
+            <a href="#" id="shop">Explore Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Most Popular Section End -->
+
+    <!-- Blog Section Start -->
+    <section class="container-fluid pick-up">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center">BEST BEAUTY PICKS FOR YOU</h1>
+        </div>
+      </div>
+
+      <!-- Pick Up Container -->
+      <div class="row py-5">
+        <div class="col-md-6 pick-up-box">
+          <div class="pick-up__img">
+            <img src="Images/Bags/pro-4.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h1>ICONICS BAG</h1>
+            <p>Timeless and modern the must-have Lancel</p>
+            <a href="#">DISCOVER MORE</a>
+          </div>
+        </div>
+
+        <div class="col-md-6 pick-up-box">
+          <div class="pick-up__img">
+            <img src="Images/Bags/pro-5.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h1>POP AROUND THE WORLD</h1>
+            <p>Soft and lightweight material wallets for women</p>
+            <a href="#">DISCOVER MORE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Blog Section End -->
+
+    <!-- Banner Section Start -->
+    <section class="container-fluid bag-banner">
+      <div class="info">
+        <h1>SALE, JUNE 9TH TO SEPTEMBER 25TH 2024</h1>
+        <p>-10% extra from two purchased products * - see conditions</p>
+        <a href="#">SHOP NOW</a>
+      </div>
+    </section>
+    <!-- Banner Section End -->
+
+    <!-- Product List Section Start -->
+    <section class="container-fluid hot-picks">
+      <div class="row">
+        <div class="col-1g-12">
+          <h1 class="hot-picks-title text-center">BEST SELLING BAGS</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 img-cont">
+          <div class="arrival-img">
+            <div class="image__container">
+              <div class="img-box-1">
+                <div class="img-box-cont">
+                  <img
+                    src="Images/Bags/Products/bag1.jpg"
+                    class="img-fluid"
+                    id="img-1"
+                  />
+                  <div class="img-label">
+                    <span class="new" style="background: rgb(223, 18, 86)"
+                      >NEW</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="img-box-2">
+                <div class="img-box-cont">
+                  <img
+                    src="Images/Bags/Products/bag1-1.jpg"
+                    class="img-fluid"
+                    id="img-1"
+                  />
+                  <a
+                    href="#"
+                    class="add-to-cart"
+                    target="_self"
+                    title="Add Cart"
+                    ><i class="bi bi-cart2"></i> SELLECT OPTIONS</a
+                  >
+
+                  <div class="arrival-icons">
+                    <li>
+                      <a href="#" target="_self" title="Preview">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_self" title="Likes">
+                        <i class="bi bi-heart"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_self" title="Share"
+                        ><i class="bi bi-share"></i
+                      ></a>
+                    </li>
+                  </div>
+                </div>
+              </div>
+              <div class="dress-name">Roxanne Leather Clutch in Pink</div>
+              <div class="arrival-price">
+                <span>$350.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 img-cont">
+          <div class="arrival-img">
+            <div class="image__container">
+              <div class="img-box-1">
+                <div class="img-box-cont">
+                  <img
+                    src="Images/Bags/Products/bag2.jpg"
+                    class="img-fluid"
+                    id="img-1"
+                  />
+                  <div class="img-label">
+                    <span class="new" style="background: rgb(0, 174, 255)"
+                      >NEW</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="img-box-2">
+                <div class="img-box-cont">
+                  <img
+                    src="Images/Bags/Products/bag2-1.jpg"
+                    class="img-fluid"
+                    id="img-1"
+                  />
+                  <a
+                    href="#"
+                    class="add-to-cart"
+                    target="_self"
+                    title="Add Cart"
+                    ><i class="bi bi-cart2"></i> SELLECT OPTIONS</a
+                  >
+
+                  <div class="arrival-icons">
+                    <li>
+                      <a href="#" target="_self" title="Preview">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_self" title="Likes">
+                        <i class="bi bi-heart"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_self" title="Share"
+                        ><i class="bi bi-share"></i
+                      ></a>
+                    </li>
+                  </div>
+                </div>
+              </div>
+              <div class="dress-name">Preety Glooming Bag</div>
+              <div class="arrival-price">
+                <del>$250.00</del>
+                <span>$200.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 img-cont">
+          <div class="arrival-img">
+            <div class="image__container">
+              <div class="img-box-1">
+                <div class="img-box-cont">
+                  <img
+                    src="Images/Bags/Products/bag3.jpg"
+                    class="img-fluid"
+                    id="img-1"
+                  />
+                  <div class="img-label">
+                    <span class="new" style="background: rgb(80, 238, 7)"
+                      >SALE</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="img-box-2">
+                <div class="img-box-cont">
+                  <img
+                    src="Images/Bags/Products/bag3-1.jpg"
+                    class="img-fluid"
+                    id="img-1"
+                  />
+                  <a
+                    href="#"
+                    class="add-to-cart"
+                    target="_self"
+                    title="Add Cart"
+                    ><i class="bi bi-cart2"></i> SELLECT OPTIONS</a
+                  >
+
+                  <div class="arrival-icons">
+                    <li>
+                      <a href="#" target="_self" title="Preview">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_self" title="Likes">
+                        <i class="bi bi-heart"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_self" title="Share"
+                        ><i class="bi bi-share"></i
+                      ></a>
+                    </li>
+                  </div>
+                </div>
+              </div>
+              <div class="dress-name">Osccar Luguage Tag in Rose</div>
+              <div class="arrival-price">
+                <span>$150.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 img-cont">
+          <div class="arrival-img">
+            <div class="image__container">
+              <div class="img-box-1">
+                <div class="img-box-cont">
+                  <img
+                    src="Images/Bags/Products/bag4.jpg"
+                    class="img-fluid"
+                    id="img-1"
+                  />
+                  <div class="img-label">
+                    <span class="new" style="background: rgb(48, 5, 204)"
+                      >HOT</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="img-box-2">
+                <div class="img-box-cont">
+                  <img
+                    src="Images/Bags/Products/bag4-1.jpg"
+                    class="img-fluid"
+                    id="img-1"
+                  />
+                  <a
+                    href="#"
+                    class="add-to-cart"
+                    target="_self"
+                    title="Add Cart"
+                    ><i class="bi bi-cart2"></i> SELLECT OPTIONS</a
+                  >
+
+                  <div class="arrival-icons">
+                    <li>
+                      <a href="#" target="_self" title="Preview">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_self" title="Likes">
+                        <i class="bi bi-heart"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_self" title="Share"
+                        ><i class="bi bi-share"></i
+                      ></a>
+                    </li>
+                  </div>
+                </div>
+              </div>
+              <div class="dress-name">Roxanne Leather Clutch in Black</div>
+              <div class="arrival-price">
+                <span>$350.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 img-cont">
+          <div class="arrival-img">
+            <div class="image__container">
+              <div class="img-box-1">
+                <div class="img-box-cont">
+                  <img
+                    src="Images/Bags/Products/bag5.jpg"
+                    class="img-fluid"
+                    id="img-1"
+                  />
+                  <div class="img-label">
+                    <span class="new" style="background: rgb(80, 238, 7)"
+                      >NEW</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="img-box-2">
+                <div class="img-box-cont">
+                  <img
+                    src="Images/Bags/Products/bag5-1.jpg"
+                    class="img-fluid"
+                    id="img-1"
+                  />
+                  <a
+                    href="#"
+                    class="add-to-cart"
+                    target="_self"
+                    title="Add Cart"
+                    ><i class="bi bi-cart2"></i> SELLECT OPTIONS</a
+                  >
+
+                  <div class="arrival-icons">
+                    <li>
+                      <a href="#" target="_self" title="Preview">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_self" title="Likes">
+                        <i class="bi bi-heart"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_self" title="Share"
+                        ><i class="bi bi-share"></i
+                      ></a>
+                    </li>
+                  </div>
+                </div>
+              </div>
+              <div class="dress-name">Roxanne Leather Clutch in Black</div>
+              <div class="arrival-price">
+                <span>$220.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 img-cont">
+          <div class="arrival-img">
+            <div class="image__container">
+              <div class="img-box-1">
+                <div class="img-box-cont">
+                  <img
+                    src="Images/Bags/Products/bag6.jpg"
+                    class="img-fluid"
+                    id="img-1"
+                  />
+                  <div class="img-label">
+                    <span class="new" style="background: rgb(223, 18, 86)"
+                      >HOT</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="img-box-2">
+                <div class="img-box-cont">
+                  <img
+                    src="Images/Bags/Products/bag6-1.jpg"
+                    class="img-fluid"
+                    id="img-1"
+                  />
+                  <a
+                    href="#"
+                    class="add-to-cart"
+                    target="_self"
+                    title="Add Cart"
+                    ><i class="bi bi-cart2"></i> SELLECT OPTIONS</a
+                  >
+
+                  <div class="arrival-icons">
+                    <li>
+                      <a href="#" target="_self" title="Preview">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_self" title="Likes">
+                        <i class="bi bi-heart"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_self" title="Share"
+                        ><i class="bi bi-share"></i
+                      ></a>
+                    </li>
+                  </div>
+                </div>
+              </div>
+              <div class="dress-name">Preety Yellow Black</div>
+              <div class="arrival-price">
+                <span>$99.99</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 img-cont">
+          <div class="arrival-img">
+            <div class="image__container">
+              <div class="img-box-1">
+                <div class="img-box-cont">
+                  <img
+                    src="Images/Bags/Products/bag7.jpg"
+                    class="img-fluid"
+                    id="img-1"
+                  />
+                  <div class="img-label">
+                    <span class="new" style="background: rgb(48, 5, 204)"
+                      >HOT</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="img-box-2">
+                <div class="img-box-cont">
+                  <img
+                    src="Images/Bags/Products/bag7-1.jpg"
+                    class="img-fluid"
+                    id="img-1"
+                  />
+                  <a
+                    href="#"
+                    class="add-to-cart"
+                    target="_self"
+                    title="Add Cart"
+                    ><i class="bi bi-cart2"></i> SELLECT OPTIONS</a
+                  >
+
+                  <div class="arrival-icons">
+                    <li>
+                      <a href="#" target="_self" title="Preview">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_self" title="Likes">
+                        <i class="bi bi-heart"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_self" title="Share"
+                        ><i class="bi bi-share"></i
+                      ></a>
+                    </li>
+                  </div>
+                </div>
+              </div>
+              <div class="dress-name">Romania Green Leather Bag</div>
+              <div class="arrival-price">
+                <span>$75.24</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 img-cont">
+          <div class="arrival-img">
+            <div class="image__container">
+              <div class="img-box-1">
+                <div class="img-box-cont">
+                  <img
+                    src="Images/Bags/Products/bag8.jpg"
+                    class="img-fluid"
+                    id="img-1"
+                  />
+                  <div class="img-label">
+                    <span class="new" style="background: rgb(48, 5, 204)"
+                      >HOT</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="img-box-2">
+                <div class="img-box-cont">
+                  <img
+                    src="Images/Bags/Products/bag8-1.jpg"
+                    class="img-fluid"
+                    id="img-1"
+                  />
+                  <a
+                    href="#"
+                    class="add-to-cart"
+                    target="_self"
+                    title="Add Cart"
+                    ><i class="bi bi-cart2"></i> SELLECT OPTIONS</a
+                  >
+
+                  <div class="arrival-icons">
+                    <li>
+                      <a href="#" target="_self" title="Preview">
+                        <i class="bi bi-eye"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_self" title="Likes">
+                        <i class="bi bi-heart"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" target="_self" title="Share"
+                        ><i class="bi bi-share"></i
+                      ></a>
+                    </li>
+                  </div>
+                </div>
+              </div>
+              <div class="dress-name">Itailian Brown Gruch Leather Bag</div>
+              <div class="arrival-price">
+                <span>$210.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Product List Section End -->
+
+    <!-- Bag Advert Section Start -->
+    <section class="container-fluid bag-ad">
+      <iframe
+        width="100%"
+        height="100%"
+        src="https://www.youtube.com/embed/LQrjpFMCE9U?si=6gnasznyjZAGgQOY"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <!-- Bag Advert Section End -->
+
+    <!-- footer Section Start -->
+    <section class="container-fluid footer-box">
+      <div class="row footer-row-box footer-underline">
+        <div class="footer-sec">
+          <h1 class="footer-title fw-bolder">Quick Shop</h1>
+          <a href="#">Women</a>
+          <a href="#">Men</a>
+          <a href="#">Kids</a>
+          <a href="#">Sports Wear</a>
+          <a href="#">Sale</a>
+        </div>
+
+        <div class="footer-sec">
+          <h1 class="footer-title fw-bolder">Information</h1>
+          <a href="#">About Us</a>
+          <a href="#">Careers</a>
+          <a href="#">Privacy & Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">My Account</a>
+        </div>
+
+        <div class="footer-sec">
+          <h1 class="footer-title fw-bolder">Customer Service</h1>
+          <a href="#">Request Personal Data</a>
+          <a href="#">FAQs</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Orders & Returns</a>
+          <a href="#">Support Center</a>
+        </div>
+
+        <div class="footer-sec">
+          <h1 class="footer-title fw-bolder">Contact Us</h1>
+          <div class="location">
+            <i class="bi bi-geo-alt-fill"></i>
+            <p>Central Region, Agona Swedru, Liberty Street C-P 234,211</p>
+          </div>
+          <div class="location">
+            <i class="bi bi-telephone-fill"></i>
+            <p>(+233) 549 175 604</p>
+          </div>
+          <div class="location">
+            <i class="bi bi-envelope-at"></i>
+            <p>isaacskikrams@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-footer py-3">
+        <div class="bottom-footer-row">
+          <h1>This website was design by &hearts; Isaacski Krams</h1>
+          <img src="Images/safepayment.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- footer Section End -->
+
+    <!-- App JS -->
+    <script src="./JS/app.js"></script>
+    <!-- Swiper JS -->
+    <script src="./JS/Swiper.js/swiper-bundle.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="./JS/Bootstrap/plugins.js"></script>
+    <script src="./JS/Bootstrap/bootstrap.bundle.js"></script>
+    <!-- JavaScript JQuery CDN -->
+    <script src="./JS/jquery-3.7.1.min.js"></script>
+    <!-- Box Icon Js CDN -->
+    <script src="./JS/Box-Icons/boxicons.js"></script>
+  </body>
+</html>

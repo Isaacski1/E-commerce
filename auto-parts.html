@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-commerce Website | Isaacski Website</title>
+  <!-- Custom Style Sheet -->
+  <link rel="stylesheet" href="./CSS/auto-parts.css" />
+  <!-- Fav-Icon -->
+  <link rel="shortcut icon" href="./Images/Logo/fav-icon.jpg" type="image/x-icon" />
+  <!-- Box-icon CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="./CSS/Swiper.JS/swiper-bundle.css" />
+  <!-- Animation CSS Link -->
+  <link rel="stylesheet" href="./CSS/animation.css" />
+  <!-- Responsive CSS Link -->
+  <link rel="stylesheet" href="./CSS/responsive.css" />
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="./CSS/Bootstrap/bootstrap.min.css" />
+  <!-- Bootstrap Plugins CDN -->
+  <link rel="stylesheet" href="./CSS/Bootstrap/plugins.css" />
+  <!-- Show PopUp CSS -->
+  <link rel="stylesheet" href="./CSS/Show-PopUp.css" />
+  <!-- Loading Page CSS -->
+  <link rel="stylesheet" href="./CSS/loading.css" />
+  <!-- Box Icon CSS CDN -->
+  <link rel="stylesheet" href="./CSS/Box-Icon/boxicons.min.css" />
+  <!-- Box Icon CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+</head>
+
+<body>
+  <!-- Loading Page Start -->
+  <div id="loading-container">
+    <div class="loading-box">
+      <img src="Images/loader.gif" alt="" />
+    </div>
+  </div>
+  <!-- Loading Page End -->
+  <!-- Automatic Show PopUp Start -->
+  <div class="container-fluid popup-container">
+    <div class="popup-box">
+      <div class="popup-img">
+        <img src="Images/Show Popup/newsletter-img.jpg" alt="" />
+      </div>
+      <div class="content">
+        <h3>join our mailing list</h3>
+        <p>
+          Sign Up for our exclusive email list and be the first to know about
+          new products and special offers
+        </p>
+        <div class="mail">
+          <form action="https://formcarry.com/s/lRUmVR4doNI" method="POST" enctype="multipart/form-data">
+            <input type="email" class="input" name="email" placeholder="Email Address" required
+              title="Please enter your email" />
+            <button type="submit" class="btn0">Subscribe</button>
+          </form>
+        </div>
+        <div class="social-handles">
+          <a href="#" target="_blank" title="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" target="_blank" title="Twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#" target="_blank" title="Pinterest"><i class="bi bi-pinterest"></i></a>
+          <a href="#" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" target="_blank" title="Linkedin"><i class="bi bi-linkedin"></i></a>
+          <a href="#" target="_blank" title="Telegram"><i class="bi bi-telegram"></i></a>
+        </div>
+      </div>
+      <div class="close">
+        <i class="bi bi-x-lg" title="Close"></i>
+      </div>
+    </div>
+  </div>
+  <!-- Automatic Show PopUp End -->
+
+  <!-- Header Section Start -->
+  <!-- Top Nav Start -->
+  <nav class="nav-top">
+    <div class="first-row">
+      <div class="curency">
+        <select>
+          <option>USD</option>
+          <option>GBP</option>
+          <option>CAD</option>
+          <option>INR</option>
+          <option>AUD</option>
+          <option>EUR</option>
+          <option>JPY</option>
+        </select>
+      </div>
+
+      <div class="language">
+        <select>
+          <option>ENGLISH</option>
+          <option>FRENCH</option>
+          <option>GERMAN</option>
+        </select>
+      </div>
+
+      <div class="call">
+        <p><i class="bx bxs-phone"></i> (+233) 549 175 604</p>
+      </div>
+    </div>
+    <div class="second-row">
+      <h1>WORLDWIDE EXPRESS SHIPPING</h1>
+    </div>
+    <div class="third-row">
+      <a href="login.html" class="login">LOGIN</a>
+      <a href="signup.html" class="login">CREATE ACCOUNT</a>
+      <a href="#" class="login">WISHLIST</a>
+      <!-- User Icon -->
+      <a href="login.html" class="login-icon"><i class="bi bi-person"></i></a>
+    </div>
+  </nav>
+
+  <!-- Navigation Section Start -->
+  <header>
+    <a href="index.html">
+      <img src="Images/Logo/logo.png" alt="Logo" width="110px">
+    </a>
+    <nav class="nav__menu">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li id="drop__down-menu"><a href="#">SHOP <i class="bi bi-arrow-down-short"></i></a>
+          <ul>
+            <div class="drop-items">
+              <li><a href="women-page.html">WOMEN PRODUCT</a></li>
+              <li><a href="men-page.html">MEN PRODUCT</a></li>
+              <li><a href="categories.html">CATEGORIES</a></li>
+              <li><a href="furnitures.html">FURNITURES</a></li>
+              <li><a href="auto-parts.html">AUTO PARTS</a></li>
+            </div>
+            <div class="dropDown__image">
+              <img src="Images/megamenu-bg1.jpg" alt="">
+            </div>
+          </ul>
+        </li>
+        <li><a href="#">PRODUCTS <i class="bi bi-arrow-down-short"></i></a>
+          <ul>
+            <div class="drop-items">
+              <li><a href="accessories.html">ACCESSORIES</a></li>
+              <li><a href="cosmetics.html">COSMETICS</a></li>
+              <li><a href="fashion.html">FASHION</a></li>
+              <li><a href="jewelry.html">JEWELRY</a></li>
+              <li><a href="shoe.html">SHOES</a></li>
+              <li><a href="bag.html">BAGS</a></li>
+            </div>
+            <div class="dropDown__image">
+              <img src="Images/megamenu-bg1.jpg" alt="">
+            </div>
+          </ul>
+
+        </li>
+        <li><a href="#">PAGES <i class="bi bi-arrow-down-short"></i></a>
+          <ul>
+            <div class="drop-items">
+              <li><a href="cart-page.html">CART PAGE</a></li>
+              <li><a href="checkout.html">CHECKOUT</a></li>
+              <li><a href="about.html">ABOUT US</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="article-1.html">ARTICLE</a></li>
+              <li><a href="faq.html">FAQS</a></li>
+              <li><a href="coming-soon.html">COMING SOON</a></li>
+            </div>
+          </ul>
+        </li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <!-- Nav Icons -->
+      <div class="nav-icons-1">
+        <a class="sea" href="#" target="_self" title="Search">
+          <i class="bi bi-search"></i>
+        </a>
+        <div class="cart">
+          <a href="cart-page.html" target="_self" title="Your Cart Items">
+            <i class="bi bi-cart2"></i>
+          </a>
+          <span>3</span>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav Icons -->
+    <div class="nav-icons">
+      <a class="sea" href="#" target="_self" title="Search">
+        <i class="bi bi-search"></i>
+      </a>
+      <div class="cart">
+        <a href="cart-page.html" target="_self" title="Your Cart Items">
+          <i class="bi bi-cart2"></i>
+        </a>
+        <span>3</span>
+      </div>
+    </div>
+
+    <!-- Hamburger Icon -->
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </header>
+  <!-- Third Navigation Bar Section Start -->
+  <nav class="third__nav">
+    <div class="ship">
+      <i class="bi bi-truck"></i>
+      <p>Free Shipping on all orders over $100</p>
+    </div>
+    <div class="delvery">
+      <i class="bi bi-check-lg"></i>
+      <p>Worldwide Delivery and same day dispatch.</p>
+    </div>
+    <div class="send">
+      <i class="bi bi-send-fill"></i>
+      <p>Extended Returns Until 10th December</p>
+    </div>
+  </nav>
+  <!-- Third Navigation Bar Section End -->
+  <!-- Navigation Section End -->
+
+  <!-- Hero Section Start -->
+  <section class="hero-banner">
+    <div class="img">
+      <img src="Images/Auto Parts/hero-banner.jpg" alt="" />
+      <div class="content">
+        <h1>THE PERFECT TEMPLATE FOR YOUR AUTO PARTS BUSINESS</h1>
+        <p>
+          BUILD THE PERFECT STORE WITH ISAACSKI ENTPRISE FOR FOR AUTO PARTS
+        </p>
+        <a href="#">PURCHASE NOW</a>
+      </div>
+      <div class="layer-1"></div>
+    </div>
+  </section>
+  <!-- Hero Section End -->
+
+  <!-- Section One Start -->
+  <section class="container section-one">
+    <div class="row">
+      <div class="col-12 text-center py-5">
+        <h1 class="sec-one_header">
+          OUR BENEFITS WILL CHANGE THE WAY YOU BUY PARTS.
+        </h1>
+        <p>Order with confidence!</p>
+      </div>
+    </div>
+
+    <!-- Article -->
+    <div class="row py-5">
+      <div class="col-lg-4 col-md-4 col-sm-4 section-one-box text-center py-5">
+        <img src="Images/Auto Parts/warranty.png" alt="" />
+        <h3>WARRANTY</h3>
+        <p>Our products are covered by a 12-month warranty.</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 section-one-box text-center py-5">
+        <img src="Images/Auto Parts/return.png" alt="" />
+        <h3>EASY RETURNS</h3>
+        <p>Return your order within 30 days for a full refund.</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 section-one-box text-center py-5">
+        <img src="Images/Auto Parts/dollar.png" alt="" />
+        <h3>COMPETITIVE PRICES</h3>
+        <p>
+          Our prices are competitive and we offer discounts for bulk orders.
+        </p>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-4 section-one-box text-center py-5">
+        <img src="Images/Auto Parts/reliable.png" alt="" />
+        <h3>RELIABILITY</h3>
+        <p>Our products are reliable and of high quality.</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 section-one-box text-center py-5">
+        <img src="Images/Auto Parts/truck.png" alt="" />
+        <h3>FAST DELIVERY</h3>
+        <p>Our products are delivered quickly and efficiently.</p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 section-one-box text-center py-5">
+        <img src="Images/Auto Parts/lock.png" alt="" />
+        <h3>SECURITY</h3>
+        <p>Our website is secure and your information is protected.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Section One End -->
+
+  <!-- Section Two Start -->
+  <section class="container-fluid section-two">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="section-two-head">WHAT ARE YOU LOOKING FOR?</h1>
+        <p class="section-two-sub-head">
+          Solutions for a better driving experience
+        </p>
+      </div>
+    </div>
+
+    <!-- Banner Slider Section Start -->
+    <div class="swiper mySwiper py-5">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="Images/Auto Parts/img1.jpg" />
+          <div class="layer">
+            <a href="accessories.html" target="blank">PERFORMANCE PART</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="Images/Auto Parts/img3.jpg" />
+          <div class="layer">
+            <a href="bag.html" target="blank">TOOLS & EQUIPMENT</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="Images/Auto Parts/img2.jpg" />
+          <div class="layer">
+            <a href="cosmetics.html" target="blank">BODY PARTS</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="Images/Auto Parts/img4.jpg" />
+          <div class="layer">
+            <a href="fashion.html" target="blank">ACCESSORIES</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="Images/Auto Parts/img5.jpg" />
+          <div class="layer">
+            <a href="jewelry.html" target="blank">SHOES</a>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <img src="Images/Auto Parts/img6.jpg" />
+          <div class="layer">
+            <a href="shoe.html" target="blank">TOOLS</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  <!-- Banner Slider Section End -->
+  </section>
+  <!-- Section Two End -->
+
+  <!-- Categories Section Start -->
+  <section class="container-fluid category-container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="category-head">POPULAR CATEGORIES</h1>
+        <p class="category-sub-head">Replacement parts and More...</p>
+      </div>
+    </div>
+
+    <div class="row py-5">
+      <div class="col-md-3 category-box py-5">
+        <div class="img">
+          <img src="Images/Auto Parts/Categories/categories-img1.jpg" alt="">
+          <a href="#" class="layer"></a>
+        </div>
+        <div class="category-content">
+          <a href="#" class="tool-head">TOOLS & GARAGE</a>
+          <div class="category-content-box">
+            <li><a href="#">Code Readers</a></li>
+            <li><a href="#">Garage Accessories</a></li>
+            <li><a href="#">Mobile Electronics</a></li>
+            <li><a href="#">Video & Software</a></li>
+            <li><a href="#">Tools & Components</a></li>
+          </div>
+          <a href="#" class="explore">VIEW COLLECTIONS</a>
+        </div>
+      </div>
+
+      <div class="col-md-3 category-box py-5">
+        <div class="img">
+          <img src="Images/Auto Parts/Categories/categories-img2.jpg" alt="">
+          <a href="#" class="layer"></a>
+        </div>
+        <div class="category-content">
+          <a href="#" class="tool-head">EXTERIOR ACCESSORIES</a>
+          <div class="category-content-box">
+            <li><a href="#">Bumpers & Components</a></li>
+            <li><a href="#">Car Covers</a></li>
+            <li><a href="#">Fog Lights & Accessories</a></li>
+            <li><a href="#">Grilles & Components</a></li>
+            <li><a href="#">Hoods & Components</a></li>
+          </div>
+          <a href="#" class="explore">VIEW COLLECTIONS</a>
+        </div>
+      </div>
+
+      <div class="col-md-3 category-box py-5">
+        <div class="img">
+          <img src="Images/Auto Parts/Categories/categories-img3.jpg" alt="">
+          <a href="#" class="layer"></a>
+        </div>
+        <div class="category-content">
+          <a href="#" class="tool-head">BODY PARTS & MIRRORS</a>
+          <div class="category-content-box">
+            <li><a href="#">Bumpers & Components</a></li>
+            <li><a href="#">Car Covers</a></li>
+            <li><a href="#">Grilles & Components</a></li>
+            <li><a href="#">Hoods & Components</a></li>
+            <li><a href="#">Hoods & Components</a></li>
+          </div>
+          <a href="#" class="explore">VIEW COLLECTIONS</a>
+        </div>
+      </div>
+
+      <div class="col-md-3 category-box py-5">
+        <div class="img">
+          <img src="Images/Auto Parts/Categories/categories-img4.jpg" alt="">
+          <a href="#" class="layer"></a>
+        </div>
+        <div class="category-content">
+          <a href="#" class="tool-head">INTERIOR ACCESSORIES</a>
+          <div class="category-content-box">
+            <li><a href="#">Carpet Kits</a></li>
+            <li><a href="#">Dash & Accessories</a></li>
+            <li><a href="#">Floor Mats & Liners</a></li>
+            <li><a href="#">Seats & Accessories</a></li>
+            <li><a href="#">Switches & Components</a></li>
+          </div>
+          <a href="#" class="explore">VIEW COLLECTIONS</a>
+        </div>
+      </div>
+
+      <div class="col-md-3 category-box py-5">
+        <div class="img">
+          <img src="Images/Auto Parts/Categories/categories-img5.jpg" alt="">
+          <a href="#" class="layer"></a>
+        </div>
+        <div class="category-content">
+          <a href="#" class="tool-head">HEADLIGHTS & LIGHTING</a>
+          <div class="category-content-box">
+            <li><a href="#">Fog Lights & Accessories</a></li>
+            <li><a href="#">Headlights & Accessories</a></li>
+            <li><a href="#">Switches & Components</a></li>
+            <li><a href="#">Tail Lights & Accessories</a></li>
+            <li><a href="#">Turn Signals & Other Lights</a></li>
+          </div>
+          <a href="#" class="explore">VIEW COLLECTIONS</a>
+        </div>
+      </div>
+
+      <div class="col-md-3 category-box py-5">
+        <div class="img">
+          <img src="Images/Auto Parts/Categories/categories-img6.jpg" alt="">
+          <a href="#" class="layer"></a>
+        </div>
+        <div class="category-content">
+          <a href="#" class="tool-head">EXHAUST SYSTEM</a>
+          <div class="category-content-box">
+            <li><a href="#">Catalytic Converter</a></li>
+            <li><a href="#">Exhaust End Silencers</a></li>
+            <li><a href="#">Exhaust Middle Silencers</a></li>
+            <li><a href="#">Particulate Filter</a></li>
+            <li><a href="#">Exhaust End Silencers</a></li>
+          </div>
+          <a href="#" class="explore">VIEW COLLECTIONS</a>
+        </div>
+      </div>
+
+      <div class="col-md-3 category-box py-5">
+        <div class="img">
+          <img src="Images/Auto Parts/Categories/categories-img7.jpg" alt="">
+          <a href="#" class="layer"></a>
+        </div>
+        <div class="category-content">
+          <a href="#" class="tool-head">BRAKES, SUSPENSION & STEERING</a>
+          <div class="category-content-box">
+            <li><a href="#">Shocks & Components</a></li>
+            <li><a href="#">Wheel Hubs and Components</a></li>
+            <li><a href="#">Brake Discs & Calipers</a></li>
+            <li><a href="#">Control Arms & Components</a></li>
+            <li><a href="#">Lowering & Lifting Kits</a></li>
+          </div>
+          <a href="#" class="explore">VIEW COLLECTIONS</a>
+        </div>
+      </div>
+
+      <div class="col-md-3 category-box py-5">
+        <div class="img">
+          <img src="Images/Auto Parts/Categories/categories-img8.jpg" alt="">
+          <a href="#" class="layer"></a>
+        </div>
+        <div class="category-content">
+          <a href="#" class="tool-head">ENGINE & DRIVETRAIN</a>
+          <div class="category-content-box">
+            <li><a href="#">Catalytic Converters</a></li>
+            <li><a href="#">Exhaust Systems</a></li>
+            <li><a href="#">Fuel Systems</a></li>
+            <li><a href="#">Heating, Air Conditioning</a></li>
+            <li><a href="#">Radiators, Fans, Cooling Systems</a></li>
+          </div>
+          <a href="#" class="explore">VIEW COLLECTIONS</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Categories Section End -->
+
+  <!-- Section Three Start -->
+  <section class="section-three">
+    <div class="content">
+      <h1>OUTSTANDING SELECTION, SERVICE AND DELIVERY TO OUR CUSTOMERS IS OUR TOP PRIORITY</h1>
+      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</p>
+      <a href="#">CONTACT US NOW</a>
+    </div>
+  </section>
+  <!-- Section Three End -->
+
+  <!-- Section Four Start -->
+  <section class="container-fluid section-four">
+    <div class="row">
+      <div class="col-md-3 img-cont">
+        <div class="arrival-img">
+          <div class="image__container">
+            <div class="img-box-1">
+              <div class="img-box-cont">
+                <img src="Images/Auto Parts/Products/pro1.jpg" class="img-fluid" id="img-1" />
+
+              </div>
+            </div>
+            <div class="img-box-2">
+              <div class="img-box-cont">
+                <img src="Images/Auto Parts/Products/pro1-1.jpg" class="img-fluid" id="img-1" />
+                <a href="#" class="add-to-cart" target="_self" title="Add Cart"><i class="bi bi-cart2"></i> ADD CART</a>
+
+                <div class="arrival-icons">
+                  <li>
+                    <a href="#" target="_self" title="Preview">
+                      <i class="bi bi-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_self" title="Likes">
+                      <i class="bi bi-heart"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_self" title="Share"><i class="bi bi-share"></i></a>
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div class="dress-name">8 Tons Powerful Car Auto Tow Rope Trailer Rope</div>
+            <div class="arrival-price">
+              <span>$80</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 img-cont">
+        <div class="arrival-img">
+          <div class="image__container">
+            <div class="img-box-1">
+              <div class="img-box-cont">
+                <img src="Images/Auto Parts/Products/pro2.jpg" class="img-fluid" id="img-1" />
+
+              </div>
+            </div>
+            <div class="img-box-2">
+              <div class="img-box-cont">
+                <img src="Images/Auto Parts/Products/pro2-1.jpg" class="img-fluid" id="img-1" />
+                <a href="#" class="add-to-cart" target="_self" title="Add Cart"><i class="bi bi-cart2"></i> ADD CART</a>
+
+                <div class="arrival-icons">
+                  <li>
+                    <a href="#" target="_self" title="Preview">
+                      <i class="bi bi-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_self" title="Likes">
+                      <i class="bi bi-heart"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_self" title="Share"><i class="bi bi-share"></i></a>
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div class="dress-name">Air Pressure Gauge Heavy Duty Best For Car</div>
+            <div class="arrival-price">
+              <span>$60</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 img-cont">
+        <div class="arrival-img">
+          <div class="image__container">
+            <div class="img-box-1">
+              <div class="img-box-cont">
+                <img src="Images/Auto Parts/Products/pro3.jpg" class="img-fluid" id="img-1" />
+
+              </div>
+            </div>
+            <div class="img-box-2">
+              <div class="img-box-cont">
+                <img src="Images/Auto Parts/Products/pro3-1.jpg" class="img-fluid" id="img-1" />
+                <a href="#" class="add-to-cart" target="_self" title="Add Cart"><i class="bi bi-cart2"></i> ADD CART</a>
+
+                <div class="arrival-icons">
+                  <li>
+                    <a href="#" target="_self" title="Preview">
+                      <i class="bi bi-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_self" title="Likes">
+                      <i class="bi bi-heart"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_self" title="Share"><i class="bi bi-share"></i></a>
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div class="dress-name">Air Pump MTB Motorcycle Car Basketball Bike</div>
+            <div class="arrival-price">
+              <span>$65</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 img-cont">
+        <div class="arrival-img">
+          <div class="image__container">
+            <div class="img-box-1">
+              <div class="img-box-cont">
+                <img src="Images/Auto Parts/Products/pro4.jpg" class="img-fluid" id="img-1" />
+
+              </div>
+            </div>
+            <div class="img-box-2">
+              <div class="img-box-cont">
+                <img src="Images/Auto Parts/Products/pro4-1.jpg" class="img-fluid" id="img-1" />
+                <a href="#" class="add-to-cart" target="_self" title="Add Cart"><i class="bi bi-cart2"></i> ADD CART</a>
+
+                <div class="arrival-icons">
+                  <li>
+                    <a href="#" target="_self" title="Preview">
+                      <i class="bi bi-eye"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_self" title="Likes">
+                      <i class="bi bi-heart"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_self" title="Share"><i class="bi bi-share"></i></a>
+                  </li>
+                </div>
+              </div>
+            </div>
+            <div class="dress-name">Honeywell Move Pure Car Air Purifier</div>
+            <div class="arrival-price">
+              <span>$49.99</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section Four End -->
+
+  <!-- Review Section Start -->
+  <section class="review container-fluid">
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+      <div class="carousel-inner review-main-header">
+        <h1>CUSTOMER REVIEWS</h1>
+        <div class="carousel-item active review-cont">
+          <div class="profile">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iure aspernatur omnis accusamus cumque
+              perferendis consequuntur similique laborum ducimus in excepturi unde asperiores natus repudiandae nulla
+              cum, non modi voluptate.</p>
+            <h2>HAPPY CUSTOMERS</h2>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="profile">
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iure aspernatur omnis
+              accusamus cumque
+              perferendis consequuntur similique laborum ducimus in excepturi unde asperiores natus repudiandae nulla
+              cum, non modi voluptate.</p>
+            <h2 class="text-center">HAPPY CUSTOMERS</h2>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="profile">
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iure aspernatur omnis
+              accusamus cumque
+              perferendis consequuntur similique laborum ducimus in excepturi unde asperiores natus repudiandae nulla
+              cum, non modi voluptate.</p>
+            <h2 class="text-center">HAPPY CUSTOMERS</h2>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- Review Section End -->
+
+  <!-- Website Logos -->
+  <section class="logo-section container-fluid">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="brand-head">POPULAR CAR MAKERS</h1>
+        <p class="brand-sub-head">all car brands</p>
+      </div>
+    </div>
+    <div class="row py-5">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="logo-slides">
+          <img src="Images/Logos/brandlogo1.png" alt="">
+          <img src="Images/Logos/brandlogo2.png" alt="">
+          <img src="Images/Logos/brandlogo3.png" alt="">
+          <img src="Images/Logos/brandlogo4.png" alt="">
+          <img src="Images/Logos/brandlogo5.png" alt="">
+          <img src="Images/Logos/brandlogo6.png" alt="">
+        </div>
+        <div class="logo-slides">
+          <img src="Images/Logos/brandlogo1.png" alt="">
+          <img src="Images/Logos/brandlogo2.png" alt="">
+          <img src="Images/Logos/brandlogo3.png" alt="">
+          <img src="Images/Logos/brandlogo4.png" alt="">
+          <img src="Images/Logos/brandlogo5.png" alt="">
+          <img src="Images/Logos/brandlogo6.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Website End -->
+
+  <!-- Sign Up News letter Start -->
+  <section class="container-fluid sub-content py-5">
+    <div class="row">
+      <div class="col-12 col-lg-8 subscribe">
+        <div class="label">
+          <h4>SIGN UP FOR </h4>
+          <h1>NEWSLETTER</h1>
+        </div>
+        <form action="https://formcarry.com/s/lRUmVR4doNI" method="POST" enctype="multipart/form-data"
+          class="subscribe-form">
+          <input type="email" name="email" placeholder="Email address" required>
+          <button class="btn-1">SUBSCRIBE</button>
+        </form>
+      </div>
+      <div class="col-12 col-lg-4 subscribe">
+        <a href="" target="_parent" title="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="" target="_parent" title="Twitter"><i class="bi bi-twitter"></i></a>
+        <a href="" target="_parent" title="Pinterest"><i class="bi bi-pinterest"></i></a>
+        <a href="" target="_parent" title="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="" target="_parent" title="YouTube"><i class="bi bi-youtube"></i></a>
+        <a href="" target="_parent" title="Linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="" target="_parent" title="Telegram"><i class="bi bi-telegram"></i></a>
+      </div>
+
+    </div>
+  </section>
+  <!-- Sign Up News letter End -->
+
+  <!-- footer Section Start -->
+  <section class="container-fluid footer-box">
+    <div class="row footer-row-box footer-underline">
+      <div class="footer-sec">
+        <h1 class="footer-title fw-bolder">Quick Shop</h1>
+        <a href="#">Women</a>
+        <a href="#">Men</a>
+        <a href="#">Kids</a>
+        <a href="#">Sports Wear</a>
+        <a href="#">Sale</a>
+      </div>
+
+      <div class="footer-sec">
+        <h1 class="footer-title fw-bolder">Information</h1>
+        <a href="#">About Us</a>
+        <a href="#">Careers</a>
+        <a href="#">Privacy & Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">My Account</a>
+      </div>
+
+      <div class="footer-sec">
+        <h1 class="footer-title fw-bolder">Customer Service</h1>
+        <a href="#">Request Personal Data</a>
+        <a href="#">FAQs</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Orders & Returns</a>
+        <a href="#">Support Center</a>
+      </div>
+
+      <div class="footer-sec">
+        <h1 class="footer-title fw-bolder">Contact Us</h1>
+        <div class="location">
+          <i class="bi bi-geo-alt-fill"></i>
+          <p>Central Region, Agona Swedru, Liberty Street C-P 234,211</p>
+        </div>
+        <div class="location">
+          <i class="bi bi-telephone-fill"></i>
+          <p>(+233) 549 175 604</p>
+        </div>
+        <div class="location">
+          <i class="bi bi-envelope-at"></i>
+          <p>isaacskikrams@gmail.com</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="bottom-footer py-3">
+      <div class="bottom-footer-row">
+        <h1>This website was design by &hearts; Isaacski Krams</h1>
+        <img src="Images/safepayment.png" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- footer Section End -->
+
+  <!-- App JS -->
+  <script src="./JS/app.js"></script>
+  <!-- Swiper JS -->
+  <script src="./JS/Swiper.js/swiper-bundle.js"></script>
+  <!-- Bootstrap Js CDN -->
+  <script src="./JS/Bootstrap/plugins.js"></script>
+  <script src="./JS/Bootstrap/bootstrap.bundle.js"></script>
+  <!-- JavaScript JQuery CDN -->
+  <script src="./JS/jquery-3.7.1.min.js"></script>
+  <!-- Box Icon Js CDN -->
+  <script src="./JS/Box-Icons/boxicons.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      loop: true,
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 0,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+</body>
+
+</html>

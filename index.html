@@ -1,0 +1,1656 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- ******************** ISAACSKI E-COMMERCE WEBSITE TEMPLATE ******************* -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Website | Isaacski Website</title>
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    <!-- Fav-Icon -->
+    <link rel="shortcut icon" href="./Images/Logo/fav-icon.jpg" type="image/x-icon">
+    <!-- Box-icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="./CSS/Swiper.JS/swiper-bundle.css">
+    <!-- Animation CSS Link -->
+    <link rel="stylesheet" href="./CSS/animation.css">
+    <!-- Responsive CSS Link -->
+    <link rel="stylesheet" href="./CSS/responsive.css">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="./CSS/Bootstrap/bootstrap.min.css">
+    <!-- Bootstrap Plugins CDN -->
+    <link rel="stylesheet" href="./CSS/Bootstrap/plugins.css">
+    <!-- Show PopUp CSS -->
+    <link rel="stylesheet" href="./CSS/Show-PopUp.css">
+    <!-- Loading Page CSS -->
+    <link rel="stylesheet" href="./CSS/loading.css">
+    <!-- Box Icon CSS CDN -->
+    <link rel="stylesheet" href="./CSS/Box-Icon/boxicons.min.css">
+    <!-- Box Icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Cart Section -->
+    <link rel="stylesheet" href="./CSS/cart.css">
+</head>
+
+<body>
+    <!-- Loading Page Start -->
+    <!-- <div id="loading-container">
+        <div class="loading-box">
+            <img src="Images/loader.gif" alt="">
+        </div>
+    </div> -->
+    <!-- Loading Page End -->
+    <!-- Automatic Show PopUp Start -->
+    <div class="container-fluid popup-container">
+        <div class="popup-box">
+            <div class="popup-img">
+                <img src="Images/Show Popup/newsletter-img.jpg" alt="">
+            </div>
+            <div class=" content">
+                <h3>join our mailing list</h3>
+                <p>Sign Up for our exclusive email list and be the first to know about new products and special offers
+                </p>
+                <div class="mail">
+                    <form action="https://formcarry.com/s/lRUmVR4doNI" method="POST" enctype="multipart/form-data">
+                        <input type="email" class="input" name="email" placeholder="Email Address" required
+                            title="Please enter your email">
+                        <button type="submit" class="btn0">Subscribe</button>
+                    </form>
+                </div>
+                <div class="social-handles">
+                    <a href="#" target="_blank" title="Facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" target="_blank" title="Twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="#" target="_blank" title="Pinterest"><i class="bi bi-pinterest"></i></a>
+                    <a href="#" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" target="_blank" title="Linkedin"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" target="_blank" title="Telegram"><i class="bi bi-telegram"></i></a>
+
+                </div>
+            </div>
+            <div class="close">
+                <i class="bi bi-x-lg" title="Close"></i>
+            </div>
+
+        </div>
+    </div>
+    <!-- Automatic Show PopUp End -->
+
+    <!-- Header Section Start -->
+    <!-- Top Nav Start -->
+    <nav class="nav-top">
+        <div class="first-row">
+            <div class="curency">
+                <select>
+                    <option>USD</option>
+                    <option>GBP</option>
+                    <option>CAD</option>
+                    <option>INR</option>
+                    <option>AUD</option>
+                    <option>EUR</option>
+                    <option>JPY</option>
+                </select>
+            </div>
+
+            <div class="language">
+                <select>
+                    <option>ENGLISH</option>
+                    <option>FRENCH</option>
+                    <option>GERMAN</option>
+                </select>
+            </div>
+
+            <div class="call">
+                <p><i class='bx bxs-phone'></i> (+233) 549 175 604</p>
+            </div>
+        </div>
+        <div class="second-row">
+            <h1>WORLDWIDE EXPRESS SHIPPING</h1>
+        </div>
+        <div class="third-row">
+            <a href="login.html" class="login">LOGIN</a>
+            <a href="signup.html" class="login">CREATE ACCOUNT</a>
+            <a href="#" class="login">WISHLIST</a>
+            <!-- User Icon -->
+            <a href="login.html" class="login-icon"><i class="bi bi-person"></i></a>
+        </div>
+    </nav>
+
+    <!-- Navigation Section Start -->
+    <header>
+        <a href="index.html">
+            <img src="Images/Logo/logo.png" alt="Logo" width="110px">
+        </a>
+        <nav class="nav__menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li id="drop__down-menu"><a href="#">SHOP <i class="bi bi-arrow-down-short"></i></a>
+                    <ul>
+                        <div class="drop-items">
+                            <li><a href="women-page.html">WOMEN PRODUCT</a></li>
+                            <li><a href="men-page.html">MEN PRODUCT</a></li>
+                            <li><a href="categories.html">CATEGORIES</a></li>
+                            <li><a href="furnitures.html">FURNITURES</a></li>
+                            <li><a href="auto-parts.html">AUTO PARTS</a></li>
+                        </div>
+                        <div class="dropDown__image">
+                            <img src="Images/megamenu-bg1.jpg" alt="">
+                        </div>
+                    </ul>
+                </li>
+                <li><a href="#">PRODUCTS <i class="bi bi-arrow-down-short"></i></a>
+                    <ul>
+                        <div class="drop-items">
+                            <li><a href="accessories.html">ACCESSORIES</a></li>
+                            <li><a href="cosmetics.html">COSMETICS</a></li>
+                            <li><a href="fashion.html">FASHION</a></li>
+                            <li><a href="jewelry.html">JEWELRY</a></li>
+                            <li><a href="shoe.html">SHOES</a></li>
+                            <li><a href="bag.html">BAGS</a></li>
+                        </div>
+                        <div class="dropDown__image">
+                            <img src="Images/megamenu-bg1.jpg" alt="">
+                        </div>
+                    </ul>
+
+                </li>
+                <li><a href="#">PAGES <i class="bi bi-arrow-down-short"></i></a>
+                    <ul>
+                        <div class="drop-items">
+                            <li><a href="cart-page.html">CART PAGE</a></li>
+                            <li><a href="checkout.html">CHECKOUT</a></li>
+                            <li><a href="about.html">ABOUT US</a></li>
+                            <li><a href="blog.html">BLOG</a></li>
+                            <li><a href="article-1.html">ARTICLE</a></li>
+                            <li><a href="faq.html">FAQS</a></li>
+                            <li><a href="coming-soon.html">COMING SOON</a></li>
+                        </div>
+                    </ul>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <!-- Nav Icons -->
+            <div class="nav-icons-1">
+                <a class="sea" href="#" target="_self" title="Search">
+                    <i class="bi bi-search"></i>
+                </a>
+                <div class="cart">
+                    <a href="cart-page.html" target="_self" title="Your Cart Items">
+                      <i class="bi bi-cart2"></i>
+                    </a>
+                    <span>3</span>
+                  </div>
+            </div>
+        </nav>
+        <!-- Nav Icons -->
+        <div class="nav-icons">
+            <a class="sea" href="#" target="_self" title="Search">
+                <i class="bi bi-search"></i>
+            </a>
+            <div class="cart">
+                <a href="cart-page.html" target="_self" title="Your Cart Items">
+                  <i class="bi bi-cart2"></i>
+                </a>
+                <span>3</span>
+              </div>
+        </div>
+
+        <!-- Hamburger Icon -->
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+    <!-- Navigation Section End -->
+
+    <!-- Hero Section Start -->
+    <section class="hero-section">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="img">
+                        <img src="Images/Slide-Show-Banner/home-banner-1.jpg" alt="">
+                        <div class="lay-out"></div>
+                    </div>
+                    <div class="carousel-info-1">
+                        <h5 id="head">SHOP OUR NEW COLLECTION</h5>
+                        <p id="header-info">FROM HIGHT TO LOW, CLASSIC OR MODERN. WE HAVE YOU COVERED</p>
+                        <button class="btn">SHOP NOW</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="img">
+                        <img src="Images/Slide-Show-Banner/hero-banner-2.jpg" alt="">
+                        <div class="lay-out"></div>
+                    </div>
+                    <div class="carousel-info-1">
+                        <h5 id="head">SUMMER BIKINI COLLECTION</h5>
+                        <p id="header-info">SAVE UP TP 50% OFF THIS WEEKEND</p>
+                        <button class="btn">SHOP NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- New Arrival Section Start -->
+    <section class="container-fluid new_arrival">
+        <div class="row">
+            <div class="col-12">
+                <h1>NEW ARRIVALS</h1>
+                <p>Browse the huge variety of our products</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <!-- Arrival Prodcts -->
+                <nav>
+                    <div class="nav nav-tabs justify-content-center mt-5 g-5" id="nav-tab" role="tablist">
+                        <button class="nav-link active arrival-links" id="nav-home-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                            aria-selected="true">WOMEN</button>
+                        <button class="nav-link arrival-links" id="nav-profile-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                            aria-selected="false">MEN</button>
+                        <button class="nav-link arrival-links" id="nav-contact-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                            aria-selected="false">SALE</button>
+                    </div>
+                </nav>
+
+                <div class="tab-content py-5" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+                        tabindex="0">
+                        <div class="row row-gap">
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Women Procuts/product-image1.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <div class="img-label">
+                                                    <span class="dis">-20</span>
+                                                    <span class="new">NEW</span>
+                                                </div>
+                                                <div class="arrival-date">
+                                                    <div class="arrival-date-span">
+                                                        <span>00</span>
+                                                        <span>Days</span>
+                                                    </div>
+                                                    <div class="arrival-date-span">
+                                                        <span>00</span>
+                                                        <span>Hrs</span>
+                                                    </div>
+                                                    <div class="arrival-date-span">
+                                                        <span>00</span>
+                                                        <span>Min</span>
+                                                    </div>
+                                                    <div class="arrival-date-span">
+                                                        <span>00</span>
+                                                        <span>Sec</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Women Procuts/product-image1-1.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <i class="bi bi-cart2 add-to-cart">ADD CART</i>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="dress-name">Edna Dress</div>
+                                        <div class="arrival-price">
+                                            <del>$600</del>
+                                            <span>$500</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+                                        <div class="mini-images">
+                                            <img src="Images/Arrival Mini Products/women-mini-dress/camelia-reversible-big1.jpg"
+                                                alt="" class="arrival-mini-product">
+                                            <img src="Images/Arrival Mini Products/women-mini-dress/camelia-reversible-big2.jpg"
+                                                alt="" class="arrival-mini-product">
+                                            <img src="Images/Arrival Mini Products/women-mini-dress/camelia-reversible-big3.jpg"
+                                                alt="" class="arrival-mini-product">
+                                            <img src="Images/Arrival Mini Products/women-mini-dress/camelia-reversible-big1.jpg"
+                                                alt="" class="arrival-mini-product">
+                                            <img src="Images/Arrival Mini Products/women-mini-dress/camelia-reversible-big5.jpg"
+                                                alt="" class="arrival-mini-product">
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Women Procuts/product-image2.jpg"
+                                                    class="img-fluid" id="img-1">
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Women Procuts/product-image2-1.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <i class="bi bi-cart2 add-to-cart">ADD CART</i>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">Elastic Waist Dress</div>
+                                        <div class="arrival-price">
+
+                                            <span>$748</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+
+                                        </div>
+                                        <div class="mini-images">
+                                            <img src="Images/Arrival Mini Products/women-mini-dress/cape-dress-1.jpg"
+                                                alt="" class="arrival-mini-product">
+                                            <img src="Images/Arrival Mini Products/women-mini-dress/cape-dress-2.jpg"
+                                                alt="" class="arrival-mini-product">
+                                            <img src="Images/Arrival Mini Products/women-mini-dress/cape-dress-3.jpg"
+                                                alt="" class="arrival-mini-product">
+                                            <img src="Images/Arrival Mini Products/women-mini-dress/cape-dress-4.jpg"
+                                                alt="" class="arrival-mini-product">
+                                            <img src="Images/Arrival Mini Products/women-mini-dress/cape-dress-6.jpg"
+                                                alt="" class="arrival-mini-product">
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Women Procuts/product-image4.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <div class="img-label">
+
+                                                    <span class="new" style="background: rgb(127, 223, 18);">HOT</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Women Procuts/product-image4-1.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <i class="bi bi-cart2 add-to-cart">ADD CART</i>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">Sleeve Dress</div>
+                                        <div class="arrival-price">
+
+                                            <span>$550</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+                                        <div class="mini-images">
+                                            <img src="Images/Arrival Mini Products/women-mini-dress/product-labels1.jpg"
+                                                alt="" class="arrival-mini-product">
+                                            <img src="Images/Arrival Mini Products/women-mini-dress/product-labels2.jpg"
+                                                alt="" class="arrival-mini-product">
+                                            <img src="Images/Arrival Mini Products/women-mini-dress/product-labels4.jpg"
+                                                alt="" class="arrival-mini-product">
+                                            <img src="Images/Arrival Mini Products/women-mini-dress/product-labels5.jpg"
+                                                alt="" class="arrival-mini-product">
+                                            <img src="Images/Arrival Mini Products/women-mini-dress/product-labels6.jpg"
+                                                alt="" class="arrival-mini-product">
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Women Procuts/product-image3.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <div class="img-label">
+
+                                                    <span class="new" style="background: rgb(127, 223, 18);">HOT</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Women Procuts/product-image3-1.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <i class="bi bi-cart2 add-to-cart">ADD CART</i>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">Cape Dress</div>
+                                        <div class="arrival-price">
+
+                                            <span>$550</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+                                        <div class="mini-images">
+                                            <img src="Images/Arrival Mini Products/women-mini-dress/product-with-right-thumbs-1.jpg"
+                                                alt="" class="arrival-mini-product">
+                                            <img src="Images/Arrival Mini Products/women-mini-dress/product-with-right-thumbs-2.jpg"
+                                                alt="" class="arrival-mini-product">
+                                            <img src="Images/Arrival Mini Products/women-mini-dress/product-with-right-thumbs-3.jpg"
+                                                alt="" class="arrival-mini-product">
+                                            <img src="Images/Arrival Mini Products/women-mini-dress/product-with-right-thumbs-4.jpg"
+                                                alt="" class="arrival-mini-product">
+                                            <img src="Images/Arrival Mini Products/women-mini-dress/product-with-right-thumbs-5.jpg"
+                                                alt="" class="arrival-mini-product">
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
+                        tabindex="0">
+                        <div class="row row-gap">
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Men/product-image6.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <div class="img-label">
+                                                    <span class="dis">-10</span>
+                                                    <span class="new">NEW</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Men/product-image6-1.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <i class="bi bi-cart2 add-to-cart">ADD CART</i>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="dress-name">Zipper Jacket</div>
+                                        <div class="arrival-price">
+                                            <span>$450</span>
+
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Men/product-image7.jpg"
+                                                    class="img-fluid" id="img-1">
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Men/product-image7-1.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <i class="bi bi-cart2 add-to-cart">ADD CART</i>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">Zipper Jacket</div>
+                                        <div class="arrival-price">
+
+                                            <span>$375.99</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Men/product-image8.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <div class="img-label">
+
+                                                    <span class="new" style="background: rgb(127, 223, 18);">HOT</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Men/product-image8-1.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <i class="bi bi-cart2 add-to-cart">ADD CART</i>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">Workers Shirt Jacket</div>
+                                        <div class="arrival-price">
+
+                                            <span>$250</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Men/product-image10.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <div class="img-label">
+
+                                                    <span class="new" style="background: rgb(127, 223, 18);">HOT</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Men/product-image10-1.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <i class="bi bi-cart2 add-to-cart">ADD CART</i>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">Wash Whool Razer</div>
+                                        <div class="arrival-price">
+
+                                            <span>$550</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"
+                        tabindex="0">
+                        <div class="row row-gap">
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Sale/product-image11.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <div class="img-label">
+
+                                                    <span class="new">NEW</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Sale/product-image11-1.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <i class="bi bi-cart2 add-to-cart">ADD CART</i>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="dress-name">Azur Bracelet in Blue Azurite</div>
+                                        <div class="arrival-price">
+                                            <span>$450</span>
+
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Sale/product-image12.jpg"
+                                                    class="img-fluid" id="img-1">
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Sale/product-image12-1.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <i class="bi bi-cart2 add-to-cart">ADD CART</i>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">Bi-Goutte Earrings</div>
+                                        <div class="arrival-price">
+
+                                            <span>$59.99</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Sale/product-image13.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <div class="img-label">
+
+                                                    <span class="new" style="background: rgb(127, 223, 18);">HOT</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Sale/product-image13-1.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <i class="bi bi-cart2 add-to-cart">ADD CART</i>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">Ashton Necklace</div>
+                                        <div class="arrival-price">
+
+                                            <span>$74.00</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Sale/product-image14.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <div class="img-label">
+
+                                                    <span class="new" style="background: rgb(127, 223, 18);">HOT</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/New-Arrivsal-Products/Sale/product-image14-1.jpg"
+                                                    class="img-fluid" id="img-1">
+                                                <i class="bi bi-cart2 add-to-cart">ADD CART</i>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">Ara Ring</div>
+                                        <div class="arrival-price">
+
+                                            <span>$150</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- New Arrival Section End -->
+
+    <!-- Banner Slider Section Start -->
+    <section class="banner-cont container-fluid">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="Images/about-slider/accessories.jpg" />
+                    <div class="layer">
+                        <a href="accessories.html" target="blank">ACCESSORIES</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="Images/about-slider/bag.jpg" />
+                    <div class="layer">
+                        <a href="bag.html" target="blank">BAG</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="Images/about-slider/cosmetic.jpg" />
+                    <div class="layer">
+                        <a href="cosmetics.html" target="blank">COSMETICS</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="Images/about-slider/fashion.jpg" />
+                    <div class="layer">
+                        <a href="fashion.html" target="blank">FASHION</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="Images/about-slider/jewellry.jpg" />
+                    <div class="layer">
+                        <a href="jewelry.html" target="blank">JEWELLRY</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="Images/about-slider/shoes.jpg" />
+                    <div class="layer">
+                        <a href="shoe.html" target="blank">SHOES</a>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- Banner Slider Section End -->
+
+    <!-- Website Logos -->
+    <section class="logo-section container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="logo-slides">
+                    <img src="Images/Logos/brandlogo1.png" alt="">
+                    <img src="Images/Logos/brandlogo2.png" alt="">
+                    <img src="Images/Logos/brandlogo3.png" alt="">
+                    <img src="Images/Logos/brandlogo4.png" alt="">
+                    <img src="Images/Logos/brandlogo5.png" alt="">
+                    <img src="Images/Logos/brandlogo6.png" alt="">
+                </div>
+                <div class="logo-slides">
+                    <img src="Images/Logos/brandlogo1.png" alt="">
+                    <img src="Images/Logos/brandlogo2.png" alt="">
+                    <img src="Images/Logos/brandlogo3.png" alt="">
+                    <img src="Images/Logos/brandlogo4.png" alt="">
+                    <img src="Images/Logos/brandlogo5.png" alt="">
+                    <img src="Images/Logos/brandlogo6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Website End -->
+
+    <!-- Feature Collection Section Start -->
+    <section class="feature-colect container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h1>FEATURE COLLECTION</h1>
+                <h3>Our most popular products base on sales</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 img-cont">
+                <div class="arrival-img">
+
+                    <div class="image__container">
+                        <div class="img-box-1">
+                            <div class="img-box-cont">
+                                <img src="Images/New-Arrivsal-Products/Women Procuts/product-image1.jpg"
+                                    class="img-fluid" id="img-1">
+                                <div class="img-label">
+                                    <span class="dis">-20</span>
+                                    <span class="new">NEW</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-box-2">
+                            <div class="img-box-cont">
+                                <img src="Images/New-Arrivsal-Products/Women Procuts/product-image1-1.jpg"
+                                    class="img-fluid" id="img-1">
+                                <div class="layout">
+                                    <div class="feature-content">
+                                        <div class="feature_dress-name">Edna Dress</div>
+                                        <div class="feature_arrival-price">
+                                            <del>$600.00</del>
+                                            <span>$500.00</span>
+                                        </div>
+                                        <div class="feature-icons">
+                                            <li><i class="bi bi-search"></i></li>
+                                            <li><i class="bi bi-bag"></i></li>
+                                            <li><i class="bi bi-heart"></i></li>
+                                            <li><i class="bi bi-shuffle"></i></li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="feature_mini-images">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/camelia-reversible0.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/camelia-reversible1.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/camelia-reversible2.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/camelia-reversible3.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/camelia-reversible4.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/camelia-reversible5.jpg" alt=""
+                            class="arrival-mini-product">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4 img-cont">
+                <div class="arrival-img">
+
+                    <div class="image__container">
+                        <div class="img-box-1">
+                            <div class="img-box-cont">
+                                <img src="Images/New-Arrivsal-Products/Women Procuts/product-image2.jpg"
+                                    class="img-fluid" id="img-1">
+                                <div class="img-label">
+                                    <span class="dis">-13</span>
+                                    <span class="new">NEW</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-box-2">
+                            <div class="img-box-cont">
+                                <img src="Images/New-Arrivsal-Products/Women Procuts/product-image2-1.jpg"
+                                    class="img-fluid" id="img-1">
+                                <div class="layout">
+                                    <div class="feature-content">
+                                        <div class="feature_dress-name">Elastic Waist Dress</div>
+                                        <div class="feature_arrival-price">
+                                            <span>$748.00</span>
+                                        </div>
+                                        <div class="feature-icons">
+                                            <li><i class="bi bi-search"></i></li>
+                                            <li><i class="bi bi-bag"></i></li>
+                                            <li><i class="bi bi-heart"></i></li>
+                                            <li><i class="bi bi-shuffle"></i></li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="feature_mini-images">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/product-with-dropdown1.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/product-with-dropdown2.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/product-with-dropdown3.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/product-with-dropdown4.jpg" alt=""
+                            class="arrival-mini-product">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4 img-cont">
+                <div class="arrival-img">
+
+                    <div class="image__container">
+                        <div class="img-box-1">
+                            <div class="img-box-cont">
+                                <img src="Images/New-Arrivsal-Products/Women Procuts/product-image3.jpg"
+                                    class="img-fluid" id="img-1">
+                                <div class="img-label">
+                                    <span class="dis">-60</span>
+                                    <span class="new">NEW</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-box-2">
+                            <div class="img-box-cont">
+                                <img src="Images/New-Arrivsal-Products/Women Procuts/product-image3-1.jpg"
+                                    class="img-fluid" id="img-1">
+                                <div class="layout">
+                                    <div class="feature-content">
+                                        <div class="feature_dress-name">3/4 Steeve Kimono Dresss</div>
+                                        <div class="feature_arrival-price">
+                                            <span>$550.00</span>
+                                        </div>
+                                        <div class="feature-icons">
+                                            <li><i class="bi bi-search"></i></li>
+                                            <li><i class="bi bi-bag"></i></li>
+                                            <li><i class="bi bi-heart"></i></li>
+                                            <li><i class="bi bi-shuffle"></i></li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="feature_mini-images">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/product-with-right-thumbs-1.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/product-with-right-thumbs-2.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/product-with-right-thumbs-3.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/product-with-right-thumbs-4.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/product-with-right-thumbs-5.jpg" alt=""
+                            class="arrival-mini-product">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4 img-cont">
+                <div class="arrival-img">
+
+                    <div class="image__container">
+                        <div class="img-box-1">
+                            <div class="img-box-cont">
+                                <img src="Images/New-Arrivsal-Products/Women Procuts/product-image4.jpg"
+                                    class="img-fluid" id="img-1">
+                                <div class="img-label">
+                                    <span class="dis">-20</span>
+                                    <span class="new">NEW</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-box-2">
+                            <div class="img-box-cont">
+                                <img src="Images/New-Arrivsal-Products/Women Procuts/product-image4-1.jpg"
+                                    class="img-fluid" id="img-1">
+                                <div class="layout">
+                                    <div class="feature-content">
+                                        <div class="feature_dress-name">Cape Dress</div>
+                                        <div class="feature_arrival-price">
+                                            <del>$900.00</del>
+                                            <span>$788.00</span>
+                                        </div>
+                                        <div class="feature-icons">
+                                            <li><i class="bi bi-search"></i></li>
+                                            <li><i class="bi bi-bag"></i></li>
+                                            <li><i class="bi bi-heart"></i></li>
+                                            <li><i class="bi bi-shuffle"></i></li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="feature_mini-images">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/cape-dress-1.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/cape-dress-2.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/cape-dress-3.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/cape-dress-4.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/cape-dress-5.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/cape-dress-6.jpg" alt=""
+                            class="arrival-mini-product">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4 img-cont">
+                <div class="arrival-img">
+
+                    <div class="image__container">
+                        <div class="img-box-1">
+                            <div class="img-box-cont">
+                                <img src="Images/New-Arrivsal-Products/Women Procuts/product-image22.jpg"
+                                    class="img-fluid" id="img-1">
+                                <div class="img-label">
+                                    <span class="dis">-13</span>
+                                    <span class="new">NEW</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-box-2">
+                            <div class="img-box-cont">
+                                <img src="Images/New-Arrivsal-Products/Women Procuts/product-image22-1.jpg"
+                                    class="img-fluid" id="img-1">
+                                <div class="layout">
+                                    <div class="feature-content">
+                                        <div class="feature_dress-name">Slantic Dress</div>
+                                        <div class="feature_arrival-price">
+                                            <del>$699.99</del>
+                                            <span>399.99</span>
+                                        </div>
+                                        <div class="feature-icons">
+                                            <li><i class="bi bi-search"></i></li>
+                                            <li><i class="bi bi-bag"></i></li>
+                                            <li><i class="bi bi-heart"></i></li>
+                                            <li><i class="bi bi-shuffle"></i></li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="feature_mini-images">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/product-labels1.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/product-labels2.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/product-labels4.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/product-labels5.jpg" alt=""
+                            class="arrival-mini-product">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-4 img-cont">
+                <div class="arrival-img">
+
+                    <div class="image__container">
+                        <div class="img-box-1">
+                            <div class="img-box-cont">
+                                <img src="Images/New-Arrivsal-Products/Women Procuts/product-image28.jpg"
+                                    class="img-fluid" id="img-1">
+                                <div class="img-label">
+                                    <span class="dis">-20</span>
+                                    <span class="new">NEW</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-box-2">
+                            <div class="img-box-cont">
+                                <img src="Images/New-Arrivsal-Products/Women Procuts/product-image28-1.jpg"
+                                    class="img-fluid" id="img-1">
+                                <div class="layout">
+                                    <div class="feature-content">
+                                        <div class="feature_dress-name">3/4 slike rip Dresss</div>
+                                        <div class="feature_arrival-price">
+                                            <span>$320.00</span>
+                                        </div>
+                                        <div class="feature-icons">
+                                            <li><i class="bi bi-search"></i></li>
+                                            <li><i class="bi bi-bag"></i></li>
+                                            <li><i class="bi bi-heart"></i></li>
+                                            <li><i class="bi bi-shuffle"></i></li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="feature_mini-images">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/camelia-reversible-big6.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/camelia-reversible-big7.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/camelia-reversible-big8.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/camelia-reversible-big9.jpg" alt=""
+                            class="arrival-mini-product">
+                        <img src="Images/Arrival Mini Products/women-mini-dress/camelia-reversible-big10.jpg" alt=""
+                            class="arrival-mini-product">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Feature Collection Section End -->
+
+    <!-- Latest Blog Section Start -->
+    <section class="container py-5">
+        <div class="row">
+            <h1 class="blog-title">LATEST FROM OUR BLOG</h1>
+            <div class="row">
+                <div class="blog-box">
+                    <div class="blog-product py-5">
+                        <div class="blog-img">
+                            <a href="#">
+                                <img src="Images/Blog/post-img1.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <article class="blog-detail">
+                            <div class="date">
+                                <h1>IT'S ALL ABOUT WHAT YOU WEAR</h1>
+                                <h5>JUNE 10, 2024</h5>
+                            </div>
+                            .
+                            <p class="blog-info">
+                                I must explain to you how all this mistaken idea of denouncing pleasure and praising
+                                pain was born and I will give you a
+                                complete account...
+                            </p>
+                            <a href="#" class="read-more">Read More</a>
+                        </article>
+
+                    </div>
+
+                    <div class="blog-product py-5">
+                        <div class="blog-img">
+                            <a href="#">
+                                <img src="Images/Blog/post-img2.jpg" class="img-fluid">
+                            </a>
+                        </div>
+                        <article class="blog-detail">
+                            <div class="date">
+                                <h1>27 DAYS OF SPRING FASHION RECAP</h1>
+                                <h5>AUGUST 25, 2024</h5>
+                            </div>
+                            .
+                            <p class="blog-info">
+                                I must explain to you how all this mistaken idea of denouncing pleasure and praising
+                                pain was born and I will give you a
+                                complete account...
+                            </p>
+                            <a href="#" class="read-more">Read More</a>
+                        </article>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Latest Blog Section End -->
+
+    <!-- Devlivery Section Start -->
+    <section class="container py-5">
+        <div class="row">
+            <div class="col-12 col-lg-3" id="delivery">
+                <i class="bi bi-truck"></i>
+                <h1>FREE SHIPPING & RETURNS</h1>
+                <h3>Free shipping on all US borders</h3>
+            </div>
+
+            <div class="col-12 col-lg-3" id="delivery">
+                <i class="bi bi-currency-dollar"></i>
+                <h1>MONEY GUARANTEE</h1>
+                <h3>30 days money back guarantee</h3>
+            </div>
+
+            <div class="col-12 col-lg-3" id="delivery">
+                <i class="bi bi-chat"></i>
+                <h1>ONLINE SUPPORT</h1>
+                <h3>We support online 24/7</h3>
+            </div>
+
+            <div class="col-12 col-lg-3" id="delivery">
+                <i class="bi bi-wallet2"></i>
+                <h1>SECURE PAYMENTS</h1>
+                <h3>All payment are secure and trusted</h3>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <!-- Devlivery Section End -->
+
+    <!-- Sign Up News letter Start -->
+    <section class="container-fluid sub-content py-5">
+        <div class="row">
+            <div class="col-12 col-lg-8 subscribe">
+                <div class="label">
+                    <h4>SIGN UP FOR </h4>
+                    <h1>NEWSLETTER</h1>
+                </div>
+                <form action="https://formcarry.com/s/lRUmVR4doNI" method="POST" enctype="multipart/form-data"
+                    class="subscribe-form">
+                    <input type="email" name="email" placeholder="Email address" required>
+                    <button class="btn-1">SUBSCRIBE</button>
+                </form>
+            </div>
+            <div class="col-12 col-lg-4 subscribe">
+                <a href="" target="_parent" title="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="" target="_parent" title="Twitter"><i class="bi bi-twitter"></i></a>
+                <a href="" target="_parent" title="Pinterest"><i class="bi bi-pinterest"></i></a>
+                <a href="" target="_parent" title="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="" target="_parent" title="YouTube"><i class="bi bi-youtube"></i></a>
+                <a href="" target="_parent" title="Linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="" target="_parent" title="Telegram"><i class="bi bi-telegram"></i></a>
+            </div>
+
+        </div>
+    </section>
+    <!-- Sign Up News letter End -->
+
+    <!-- footer Section Start -->
+    <section class="container-fluid footer-box">
+        <div class="row footer-row-box footer-underline">
+            <div class="footer-sec">
+                <h1 class="footer-title fw-bolder">Quick Shop</h1>
+                <a href="#">Women</a>
+                <a href="#">Men</a>
+                <a href="#">Kids</a>
+                <a href="#">Sports Wear</a>
+                <a href="#">Sale</a>
+            </div>
+
+            <div class="footer-sec">
+                <h1 class="footer-title fw-bolder">Information</h1>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Privacy & Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">My Account</a>
+            </div>
+
+            <div class="footer-sec">
+                <h1 class="footer-title fw-bolder">Customer Service</h1>
+                <a href="#">Request Personal Data</a>
+                <a href="#">FAQs</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Orders & Returns</a>
+                <a href="#">Support Center</a>
+            </div>
+
+            <div class="footer-sec">
+                <h1 class="footer-title fw-bolder">Contact Us</h1>
+                <div class="location">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <p>Central Region, Agona Swedru, Liberty Street C-P 234,211</p>
+                </div>
+                <div class="location">
+                    <i class="bi bi-telephone-fill"></i>
+                    <p>(+233) 549 175 604</p>
+                </div>
+                <div class="location">
+                    <i class="bi bi-envelope-at"></i>
+                    <p>isaacskikrams@gmail.com</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="bottom-footer py-3">
+            <div class="bottom-footer-row">
+                <h1>This website was design by &hearts; Isaacski Krams</h1>
+                <img src="Images/safepayment.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- footer Section End -->
+
+
+    <!-- App JS -->
+    <script src="./JS/app.js"></script>
+    <!-- Swiper JS -->
+    <script src="./JS/Swiper.js/swiper-bundle.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="./JS/Bootstrap/plugins.js"></script>
+    <script src="./JS/Bootstrap/bootstrap.bundle.js"></script>
+    <!-- JavaScript JQuery CDN -->
+    <script src="./JS/jquery-3.7.1.min.js"></script>
+    <!-- Box Icon Js CDN -->
+    <script src="./JS/Box-Icons/boxicons.js"></script>
+
+
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            loop: true,
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 0,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+:root {
+  --hover-color: rgb(42, 141, 136);
+  --color: #111;
+  --light-color: #efefef;
+  --background: #fff;
+  --dark-color: #000;
+}
+
+.cart-container {
+  position: fixed;
+  top: 0;
+  /* right: 0; */
+  right: -100%;
+  width: 320px;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+  background: #efefef;
+  box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.3);
+  border: 1px solid #333;
+  transition: 1.5s;
+}
+
+.cart-container.active {
+  right: 0;
+  transition: 0.5s;
+}
+
+.cart-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #2c2c2c;
+  margin-top: 2rem;
+}
+
+.cart-box {
+  display: grid;
+  grid-template-columns: 32% 50% 18%;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.cart-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.detail-box {
+  display: grid;
+  row-gap: 0.5rem;
+}
+
+.cart-product-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.cart-price {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--hover-color);
+}
+
+.cart-quantity {
+  border: 1px solid #000;
+  outline-color: red;
+  width: 3.5rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.cart-remove {
+  font-size: 2.5rem;
+  color: #f00;
+  cursor: pointer;
+}
+
+.total {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--color);
+}
+
+.total-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--dark-color);
+}
+
+.total-price {
+  margin-left: 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--color);
+}
+
+.btn-buy {
+  margin: 1.5rem 0 auto 0;
+  padding: 12px 20px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--background);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: var(--dark-color);
+}
+
+.btn-buy:hover {
+  background: #333;
+}
+
+.btn-buy:active {
+  transform: scale(0.9);
+  transition: 0.1s;
+}
+
+#cart-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2rem;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f00;
+  color: var(--background);
+  cursor: pointer;
+}
+#cart-close:hover {
+  background: rgb(216, 17, 17);
+}

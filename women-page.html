@@ -1,0 +1,1370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce Website | Isaacski Website</title>
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="./CSS/women-page.css" />
+    <!-- Fav-Icon -->
+    <link rel="shortcut icon" href="./Images/Logo/fav-icon.jpg" type="image/x-icon" />
+    <!-- Box-icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="./CSS/Swiper.JS/swiper-bundle.css" />
+    <!-- Animation CSS Link -->
+    <link rel="stylesheet" href="./CSS/animation.css" />
+    <!-- Responsive CSS Link -->
+    <link rel="stylesheet" href="./CSS/responsive.css" />
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="./CSS/Bootstrap/bootstrap.min.css" />
+    <!-- Bootstrap Plugins CDN -->
+    <link rel="stylesheet" href="./CSS/Bootstrap/plugins.css" />
+    <!-- Show PopUp CSS -->
+    <link rel="stylesheet" href="./CSS/Show-PopUp.css" />
+    <!-- Loading Page CSS -->
+    <link rel="stylesheet" href="./CSS/loading.css" />
+    <!-- Box Icon CSS CDN -->
+    <link rel="stylesheet" href="./CSS/Box-Icon/boxicons.min.css" />
+    <!-- Box Icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+</head>
+
+<body>
+    <!-- Loading Page Start -->
+    <div id="loading-container">
+        <div class="loading-box">
+            <img src="Images/loader.gif" alt="" />
+        </div>
+    </div>
+    <!-- Loading Page End -->
+    <!-- Automatic Show PopUp Start -->
+    <div class="container-fluid popup-container">
+        <div class="popup-box">
+            <div class="popup-img">
+                <img src="Images/Show Popup/newsletter-img.jpg" alt="" />
+            </div>
+            <div class="content">
+                <h3>join our mailing list</h3>
+                <p>
+                    Sign Up for our exclusive email list and be the first to know about
+                    new products and special offers
+                </p>
+                <div class="mail">
+                    <form action="https://formcarry.com/s/lRUmVR4doNI" method="POST" enctype="multipart/form-data">
+                        <input type="email" class="input" name="email" placeholder="Email Address" required
+                            title="Please enter your email" />
+                        <button type="submit" class="btn0">Subscribe</button>
+                    </form>
+                </div>
+                <div class="social-handles">
+                    <a href="#" target="_blank" title="Facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" target="_blank" title="Twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="#" target="_blank" title="Pinterest"><i class="bi bi-pinterest"></i></a>
+                    <a href="#" target="_blank" title="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" target="_blank" title="Linkedin"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" target="_blank" title="Telegram"><i class="bi bi-telegram"></i></a>
+                </div>
+            </div>
+            <div class="close">
+                <i class="bi bi-x-lg" title="Close"></i>
+            </div>
+        </div>
+    </div>
+    <!-- Automatic Show PopUp End -->
+
+    <!-- Header Section Start -->
+    <!-- Top Nav Start -->
+    <nav class="nav-top">
+        <div class="first-row">
+            <div class="curency">
+                <select>
+                    <option>USD</option>
+                    <option>GBP</option>
+                    <option>CAD</option>
+                    <option>INR</option>
+                    <option>AUD</option>
+                    <option>EUR</option>
+                    <option>JPY</option>
+                </select>
+            </div>
+
+            <div class="language">
+                <select>
+                    <option>ENGLISH</option>
+                    <option>FRENCH</option>
+                    <option>GERMAN</option>
+                </select>
+            </div>
+
+            <div class="call">
+                <p><i class="bx bxs-phone"></i> (+233) 549 175 604</p>
+            </div>
+        </div>
+        <div class="second-row">
+            <h1>WORLDWIDE EXPRESS SHIPPING</h1>
+        </div>
+        <div class="third-row">
+            <a href="login.html" class="login">LOGIN</a>
+            <a href="signup.html" class="login">CREATE ACCOUNT</a>
+            <a href="#" class="login">WISHLIST</a>
+            <!-- User Icon -->
+            <a href="login.html" class="login-icon"><i class="bi bi-person-fill"></i></a>
+        </div>
+    </nav>
+
+    <!-- Navigation Section Start -->
+    <header>
+        <a href="index.html">
+            <img src="Images/Logo/logo.png" alt="Logo" width="110px">
+        </a>
+        <nav class="nav__menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li id="drop__down-menu"><a href="#">SHOP <i class="bi bi-arrow-down-short"></i></a>
+                    <ul>
+                        <div class="drop-items">
+                            <li><a href="women-page.html">WOMEN PRODUCT</a></li>
+                            <li><a href="men-page.html">MEN PRODUCT</a></li>
+                            <li><a href="categories.html">CATEGORIES</a></li>
+                            <li><a href="furnitures.html">FURNITURES</a></li>
+                            <li><a href="auto-parts.html">AUTO PARTS</a></li>
+                        </div>
+                        <div class="dropDown__image">
+                            <img src="Images/megamenu-bg1.jpg" alt="">
+                        </div>
+                    </ul>
+                </li>
+                <li><a href="#">PRODUCTS <i class="bi bi-arrow-down-short"></i></a>
+                    <ul>
+                        <div class="drop-items">
+                            <li><a href="accessories.html">ACCESSORIES</a></li>
+                            <li><a href="cosmetics.html">COSMETICS</a></li>
+                            <li><a href="fashion.html">FASHION</a></li>
+                            <li><a href="jewelry.html">JEWELRY</a></li>
+                            <li><a href="shoe.html">SHOES</a></li>
+                            <li><a href="bag.html">BAGS</a></li>
+                        </div>
+                        <div class="dropDown__image">
+                            <img src="Images/megamenu-bg1.jpg" alt="">
+                        </div>
+                    </ul>
+
+                </li>
+                <li><a href="#">PAGES <i class="bi bi-arrow-down-short"></i></a>
+                    <ul>
+                        <div class="drop-items">
+                            <li><a href="cart-page.html">CART PAGE</a></li>
+                            <li><a href="checkout.html">CHECKOUT</a></li>
+                            <li><a href="about.html">ABOUT US</a></li>
+                            <li><a href="blog.html">BLOG</a></li>
+                            <li><a href="article-1.html">ARTICLE</a></li>
+                            <li><a href="faq.html">FAQS</a></li>
+                            <li><a href="coming-soon.html">COMING SOON</a></li>
+                        </div>
+                    </ul>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <!-- Nav Icons -->
+            <div class="nav-icons-1">
+                <a class="sea" href="#" target="_self" title="Search">
+                    <i class="bi bi-search"></i>
+                </a>
+                <div class="cart">
+                    <a href="cart-page.html" target="_self" title="Your Cart Items">
+                      <i class="bi bi-cart2"></i>
+                    </a>
+                    <span>3</span>
+                  </div>
+            </div>
+        </nav>
+        <!-- Nav Icons -->
+        <div class="nav-icons">
+            <a class="sea" href="#" target="_self" title="Search">
+                <i class="bi bi-search"></i>
+            </a>
+            <div class="cart">
+                <a href="cart-page.html" target="_self" title="Your Cart Items">
+                  <i class="bi bi-cart2"></i>
+                </a>
+                <span>3</span>
+              </div>
+        </div>
+
+        <!-- Hamburger Icon -->
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+    <!-- Navigation Section End -->
+
+    <!-- Hero Banner Section Start -->
+    <div class="hero_banner">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="Images/Women-Page/hero-banner.jpg" class="d-block w-100" />
+                    <h1 class="hero-head">WOMEN CLOTHS</h1>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="Images/Women-Page/hero-banner-2.jpg" class="d-block w-100" />
+                    <h1 class="hero-head" style="font-size: 2.4vw;">MAKE YOUR SELF COMFORTABLE</h1>
+                </div>
+            </div>
+            <button class="carousel-control-prev ctrl-btn" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next ctrl-btn" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Hero Banner Section End -->
+
+    <!-- Product Section Start -->
+    <section class="container-fluid new_arrival">
+        <div class="row">
+            <div class="col-12">
+                <h1>WOMEN LIST PRODUCTS</h1>
+                <p>Browse the huge variety of our products</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <!-- Arrival Prodcts -->
+                <nav>
+                    <div class="nav nav-tabs justify-content-center mt-5 g-5" id="nav-tab" role="tablist">
+                        <button class="nav-link active arrival-links" id="nav-home-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                            aria-selected="true">LATEST</button>
+                        <button class="nav-link arrival-links" id="nav-profile-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                            aria-selected="false">POPULAR</button>
+                        <button class="nav-link arrival-links" id="nav-contact-tab" data-bs-toggle="tab"
+                            data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                            aria-selected="false">OUT-STAND</button>
+                    </div>
+                </nav>
+
+                <div class="tab-content py-5" id="nav-tabContent">
+                    <!-- ============== LATEST -->
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+                        tabindex="0">
+                        <div class="row row-gap">
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress1a.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <div class="img-label">
+                                                    <span class="dis">-20</span>
+                                                    <span class="new">NEW</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress1b.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <a href="#" class="add-to-cart" target="_self" title="Add Cart"><i
+                                                        class="bi bi-cart2"></i> ADD CART</a>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="dress-name">Buttercup Dress</div>
+                                        <div class="arrival-price">
+                                            <del>$600</del>
+                                            <span>$500</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress2a.jpg" class="img-fluid"
+                                                    id="img-1">
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress2b.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <a href="#" class="add-to-cart" target="_self" title="Add Cart"><i
+                                                        class="bi bi-cart2"></i> ADD CART</a>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">Edna Dress</div>
+                                        <div class="arrival-price">
+
+                                            <span>$748</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress3a.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <div class="img-label">
+
+                                                    <span class="new" style="background: rgb(127, 223, 18);">HOT</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress3b.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <a href="#" class="add-to-cart" target="_self" title="Add Cart"><i
+                                                        class="bi bi-cart2"></i> ADD CART</a>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">Lema Shirt</div>
+                                        <div class="arrival-price">
+
+                                            <span>$550</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress4a.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <div class="img-label">
+
+                                                    <span class="new" style="background: rgb(127, 223, 18);">HOT</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress4b.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <a href="#" class="add-to-cart" target="_self" title="Add Cart"><i
+                                                        class="bi bi-cart2"></i> ADD CART</a>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">Romary Dress</div>
+                                        <div class="arrival-price">
+
+                                            <span>$550</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress5a.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <div class="img-label">
+
+                                                    <span class="new" style="background: rgb(127, 223, 18);">HOT</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress5b.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <a href="#" class="add-to-cart" target="_self" title="Add Cart"><i
+                                                        class="bi bi-cart2"></i> ADD CART</a>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">Flora Sleeveless Dress</div>
+                                        <div class="arrival-price">
+
+                                            <span>$550</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress6a.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <div class="img-label">
+
+                                                    <span class="new" style="background: rgb(127, 223, 18);">NEW</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress6b.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <a href="#" class="add-to-cart" target="_self" title="Add Cart"><i
+                                                        class="bi bi-cart2"></i> ADD CART</a>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">Button Up Dress</div>
+                                        <div class="arrival-price">
+
+                                            <span>$550</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress7a.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <div class="img-label">
+
+                                                    <span class="new" style="background: rgb(127, 223, 18);">HOT</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress7b.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <a href="#" class="add-to-cart" target="_self" title="Add Cart"><i
+                                                        class="bi bi-cart2"></i> ADD CART</a>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">Lexie Shirt</div>
+                                        <div class="arrival-price">
+
+                                            <span>$550</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress8a.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <div class="img-label">
+
+                                                    <span class="new" style="background: rgb(127, 223, 18);">HOT</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress8b.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <a href="#" class="add-to-cart" target="_self" title="Add Cart"><i
+                                                        class="bi bi-cart2"></i> ADD CART</a>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">One Shoulder Dress In Navy</div>
+                                        <div class="arrival-price">
+
+                                            <span>$550</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <!-- ============= POPULAR ============== -->
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
+                        tabindex="0">
+                        <div class="row row-gap">
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress9a.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <div class="img-label">
+
+                                                    <span class="new" style="background: rgb(127, 223, 18);">HOT</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress9b.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <a href="#" class="add-to-cart" target="_self" title="Add Cart"><i
+                                                        class="bi bi-cart2"></i> ADD CART</a>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">Traingle Sleeveless Dress In Multi</div>
+                                        <div class="arrival-price">
+
+                                            <span>$550</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress10a.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <div class="img-label">
+
+                                                    <span class="new" style="background: rgb(127, 223, 18);">HOT</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress10b.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <a href="#" class="add-to-cart" target="_self" title="Add Cart"><i
+                                                        class="bi bi-cart2"></i> ADD CART</a>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">ACB TOP</div>
+                                        <div class="arrival-price">
+
+                                            <span>$550</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress11a.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <div class="img-label">
+
+                                                    <span class="new" style="background: rgb(127, 223, 18);">HOT</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress11b.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <a href="#" class="add-to-cart" target="_self" title="Add Cart"><i
+                                                        class="bi bi-cart2"></i> ADD CART</a>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">A-Line Jacket</div>
+                                        <div class="arrival-price">
+
+                                            <span>$550</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont sold-out">
+                                                <img src="Images/Women-Page/Cloths/dress12a.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <strong>Sold Out</strong>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont sold-out">
+                                                <img src="Images/Women-Page/Cloths/dress12b.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <strong>Sold Out</strong>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">Cape Dress</div>
+                                        <div class="arrival-price">
+
+                                            <span>$550</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star-fill"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- =================== OUT-STAND ==================== -->
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"
+                        tabindex="0">
+                        <div class="row row-gap">
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress14a.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <div class="img-label">
+
+                                                    <span class="new" style="background: rgb(127, 223, 18);">HOT</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress14b.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <a href="#" class="add-to-cart" target="_self" title="Add Cart"><i
+                                                        class="bi bi-cart2"></i> ADD CART</a>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">Wrinkled Tux Shirt In Navy</div>
+                                        <div class="arrival-price">
+
+                                            <span>$550</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress16a.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <div class="img-label">
+
+                                                    <span class="new" style="background: rgb(127, 223, 18);">HOT</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress16b.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <a href="#" class="add-to-cart" target="_self" title="Add Cart"><i
+                                                        class="bi bi-cart2"></i> ADD CART</a>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">Asymmetric Dress In Black</div>
+                                        <div class="arrival-price">
+
+                                            <span>$550</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress17a.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <div class="img-label">
+
+                                                    <span class="new" style="background: rgb(127, 223, 18);">HOT</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress17b.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <a href="#" class="add-to-cart" target="_self" title="Add Cart"><i
+                                                        class="bi bi-cart2"></i> ADD CART</a>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">BabyDoll Bow Dress</div>
+                                        <div class="arrival-price">
+
+                                            <span>$550</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 img-cont">
+                                <div class="arrival-img">
+
+                                    <div class="image__container">
+                                        <div class="img-box-1">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress15a.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <div class="img-label">
+
+                                                    <span class="new" style="background: rgb(127, 223, 18);">HOT</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="img-box-2">
+                                            <div class="img-box-cont">
+                                                <img src="Images/Women-Page/Cloths/dress15b.jpg" class="img-fluid"
+                                                    id="img-1">
+                                                <a href="#" class="add-to-cart" target="_self" title="Add Cart"><i
+                                                        class="bi bi-cart2"></i> ADD CART</a>
+
+                                                <div class="arrival-icons">
+                                                    <li>
+                                                        <a href="#" target="_self" title="Preview">
+                                                            <i class="bi bi-eye"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Likes">
+                                                            <i class="bi bi-heart"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self" title="Share"><i
+                                                                class="bi bi-share"></i></a>
+                                                    </li>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="dress-name">A-Line Mini Dress In White</div>
+                                        <div class="arrival-price">
+
+                                            <span>$550</span>
+                                        </div>
+                                        <div class="rate">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star'></i>
+                                        </div>
+
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Product Section End -->
+
+    <!-- Devlivery Section Start -->
+    <section class="container py-5">
+        <div class="row">
+            <div class="col-12 col-lg-3" id="delivery">
+                <i class="bi bi-truck"></i>
+                <h1>FREE SHIPPING & RETURNS</h1>
+                <h3>Free shipping on all US borders</h3>
+            </div>
+
+            <div class="col-12 col-lg-3" id="delivery">
+                <i class="bi bi-currency-dollar"></i>
+                <h1>MONEY GUARANTEE</h1>
+                <h3>30 days money back guarantee</h3>
+            </div>
+
+            <div class="col-12 col-lg-3" id="delivery">
+                <i class="bi bi-chat"></i>
+                <h1>ONLINE SUPPORT</h1>
+                <h3>We support online 24/7</h3>
+            </div>
+
+            <div class="col-12 col-lg-3" id="delivery">
+                <i class="bi bi-wallet2"></i>
+                <h1>SECURE PAYMENTS</h1>
+                <h3>All payment are secure and trusted</h3>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <!-- Devlivery Section End -->
+
+    <!-- Sign Up News letter Start -->
+    <section class="container-fluid sub-content py-5">
+        <div class="row">
+            <div class="col-12 col-lg-8 subscribe">
+                <div class="label">
+                    <h4>SIGN UP FOR </h4>
+                    <h1>NEWSLETTER</h1>
+                </div>
+                <form action="https://formcarry.com/s/lRUmVR4doNI" method="POST" enctype="multipart/form-data"
+                    class="subscribe-form">
+                    <input type="email" name="email" placeholder="Email address" required>
+                    <button class="btn-1">SUBSCRIBE</button>
+                </form>
+            </div>
+            <div class="col-12 col-lg-4 subscribe">
+                <a href="" target="_parent" title="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="" target="_parent" title="Twitter"><i class="bi bi-twitter"></i></a>
+                <a href="" target="_parent" title="Pinterest"><i class="bi bi-pinterest"></i></a>
+                <a href="" target="_parent" title="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="" target="_parent" title="YouTube"><i class="bi bi-youtube"></i></a>
+                <a href="" target="_parent" title="Linkedin"><i class="bi bi-linkedin"></i></a>
+                <a href="" target="_parent" title="Telegram"><i class="bi bi-telegram"></i></a>
+            </div>
+
+        </div>
+    </section>
+    <!-- Sign Up News letter End -->
+
+    <!-- footer Section Start -->
+    <section class="container-fluid footer-box">
+        <div class="row footer-row-box footer-underline">
+            <div class="footer-sec">
+                <h1 class="footer-title fw-bolder">Quick Shop</h1>
+                <a href="#">Women</a>
+                <a href="#">Men</a>
+                <a href="#">Kids</a>
+                <a href="#">Sports Wear</a>
+                <a href="#">Sale</a>
+            </div>
+
+            <div class="footer-sec">
+                <h1 class="footer-title fw-bolder">Information</h1>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Privacy & Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">My Account</a>
+            </div>
+
+            <div class="footer-sec">
+                <h1 class="footer-title fw-bolder">Customer Service</h1>
+                <a href="#">Request Personal Data</a>
+                <a href="#">FAQs</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Orders & Returns</a>
+                <a href="#">Support Center</a>
+            </div>
+
+            <div class="footer-sec">
+                <h1 class="footer-title fw-bolder">Contact Us</h1>
+                <div class="location">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <p>Central Region, Agona Swedru, Liberty Street C-P 234,211</p>
+                </div>
+                <div class="location">
+                    <i class="bi bi-telephone-fill"></i>
+                    <p>(+233) 549 175 604</p>
+                </div>
+                <div class="location">
+                    <i class="bi bi-envelope-at"></i>
+                    <p>isaacskikrams@gmail.com</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="bottom-footer py-3">
+            <div class="bottom-footer-row">
+                <h1>This website was design by &hearts; Isaacski Krams</h1>
+                <img src="Images/safepayment.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- footer Section End -->
+
+    <!-- App JS -->
+    <script src="./JS/app.js"></script>
+    <!-- Swiper JS -->
+    <script src="./JS/Swiper.js/swiper-bundle.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="./JS/Bootstrap/plugins.js"></script>
+    <script src="./JS/Bootstrap/bootstrap.bundle.js"></script>
+    <!-- JavaScript JQuery CDN -->
+    <script src="./JS/jquery-3.7.1.min.js"></script>
+    <!-- Box Icon Js CDN -->
+    <script src="./JS/Box-Icons/boxicons.js"></script>
+</body>
+
+</html>
