@@ -633,13 +633,13 @@ textarea {
 .location i {
   font-size: 2rem;
   vertical-align: middle;
-  color: var(--light-color);
+  color: var(--background);
 }
 
 .location p {
   font-size: 1.2rem;
   font-family: 400;
-  color: var(--light-color);
+  color: var(--background);
   width: 70%;
 }
 
